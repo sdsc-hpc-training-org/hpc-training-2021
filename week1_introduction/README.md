@@ -38,6 +38,8 @@ remote: Compressing objects: 100% (17/17), done.
 remote: Total 23 (delta 8), reused 5 (delta 2), pack-reused 0
 Unpacking objects: 100% (23/23), done.
 [mthomas@login01 ~]$ cd hpc-training-2021/
+`
+`
 [mthomas@login01 hpc-training-2021]$ ll
 total 80
 drwxr-xr-x  4 mthomas use300     7 Jan 22 02:43 .
@@ -48,6 +50,8 @@ drwxr-xr-x  8 mthomas use300    13 Jan 22 02:43 .git
 -rw-r--r--  1 mthomas use300    96 Jan 22 02:43 README.md
 drwxr-xr-x  2 mthomas use300     3 Jan 22 02:43 week1_introduction
 [mthomas@login01 hpc-training-2021]$ cd week1_introduction/
+`
+`
 [mthomas@login01 week1_introduction]$ ll
 total 27
 drwxr-xr-x 2 mthomas use300    3 Jan 22 02:43 .
