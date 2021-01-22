@@ -15,9 +15,14 @@
 [https://na.eventscloud.com/website/21055/home/](https://na.eventscloud.com/website/21055/home/)
 
 
-2. Setup XSEDE Portal Account:
-* [https://portal.xsede.org](http://portal.xsede.org)
-* Get portalID
+2. Setup XSEDE Portal Account: [https://portal.xsede.org](http://portal.xsede.org)
+Steps to create your username:
+   1. go to the XSEDE website
+   2. add information about yourself including institution and email address
+   3. receive an account verification email
+   4. go back to account verification on the Sign In page and enter the email, verification code (you can find the code in the email received)
+   5. choose your own username and password
+   6. enter the username information in the SDSC form
 
 3. Confirm Enrollment and submit your PortalID (Google Form):
 * [https://tinyurl.com/hpc-user-training-signup](https://tinyurl.com/hpc-user-training-signup)
