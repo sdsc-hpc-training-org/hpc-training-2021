@@ -1,7 +1,7 @@
 # SDSC HPC User Training 2021
 * Updated 1/21/21 by Mary Thomas
 
-### WEEK 1: Jan 22, 2021
+## WEEK 1: Jan 22, 2021
 
 ## TOPIC:  Kickoff and Orientation
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
@@ -33,6 +33,16 @@
 * [Connecting to SDSC HPC systems/](https://github.com/sdsc-hpc-training/basic_skills/tree/master/connecting-to-hpc-systems)
 
 
-6. Suggestion:  Make it easier to connect to Expanse using passwordless SSH:   
-* https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps
+6. Suggestion:  Make it easier and more secure to connect to Expanse using ssh-agent:   
+* https://github.com/sdsc-hpc-training-org/hpc-security/blob/master/ssh_methods/connect-using-ssh-agent.md
+Note: we do not recommend using passwordless SSH.
+
+## REPORTING YOUR WORK:
+We will track your work using automated scripts, so you need to name the directories exactly as described below:
+
+1. Create a directory under your Comet home account, and call it "hpct21" (for HPC Training)
+2. Create a subdirectory called week1. If you want to add more information to the name, you can
+use the convention  `week1_description` or `week1_date` etc.
+* This should result in a directory called 
+*	/home/#username/hpct21/week1
 
