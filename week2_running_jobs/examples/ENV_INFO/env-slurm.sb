@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name="envinfo"
+#SBATCH --output="envinfo.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --export=ALL
+#SBATCH --account=sds173
+#SBATCH -t 00:1:00
+
+## Environment
+module purge
+module load slurm
+module load cpu
+module load sdsc
+
+##  just perform some basic unix commands
+
+echo "----------------------------------"
+echo "hostname= " `hostname` 
+echo "date= " `date` 
+echo "whoami= " `whoami` 
+echo "pwd= " `pwd` 
+echo "module list= " `module list` 
+echo "----------------------------------"
+echo "env= " `env` 
+echo "----------------------------------"
+echo "expanse-client user -p: " `expanse-client user -p`
+echo "----------------------------------"
+

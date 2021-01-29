@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name="dgemm_example"
+#SBATCH --output="dgemm_example.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=128
+#SBATCH --mem=248G
+#SBATCH --account=sds173
+#SBATCH --export=ALL
+#SBATCH -t 00:30:00
+
+#This job runs with 2 nodes, 128 cores per node for a total of 256 cores.
+## Environment
+module purge
+module load cpu/0.15.4
+module load gpu/0.15.4 
+module load intel/19.0.5.281 
+module load intel-mkl/2020.3.279
+module load slurm
+
+## Use srun to run the job
+
+#srun --mpi=pmi2 -n 256 --cpu-bind=rank dgemm_example
+srun --mpi=pmi2 -n 128 --cpu-bind=rank dgemm_example

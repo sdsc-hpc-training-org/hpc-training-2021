@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name="hellohybrid"
+#SBATCH --output="hellohybrid.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --cpus-per-task=16
+#SBATCH -B 2:16:1
+#SBATCH --export=ALL
+#SBATCH -t 01:30:00
+
+#Load Module Environment
+module purge
+module load slurm
+module load cpu
+module load intel
+module load intel-mpi
+
+#Run
+export OMP_NUM_THREADS=16
+mpirun -genv I_MPI_PIN_DOMAIN=omp:compact ./hello_hybrid
