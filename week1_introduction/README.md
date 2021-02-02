@@ -79,3 +79,5 @@ use the convention `week1_introduction`,  `week1_description` or `week1_date` et
 * This should result in a directory called 
 *	/home/#username/hpct21/week1
 
+
+For questions or comments, contact Mary Thomas @ mpthomas  at  ucsd.edu
