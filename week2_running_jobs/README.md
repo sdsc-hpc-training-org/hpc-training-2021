@@ -37,7 +37,7 @@ We will track your work using automated scripts, so you need to name the directo
 2. Create a subdirectory called week1. If you want to add more information to the name, you can
 use the convention `week1_<your-description>`, e.g. `week1_<introduction>` .
 * This should result in a directory called 
-*	/home/#username/hpct21/week1_<your-description>
+*	/home/$USER/hpct21/week1_<your-description>
 
 
 For questions or comments, contact Mary Thomas @ mpthomas  at  ucsd.edu
