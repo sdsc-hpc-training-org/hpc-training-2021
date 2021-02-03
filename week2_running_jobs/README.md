@@ -7,12 +7,14 @@
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
 
 ## READING AND PRESENTATIONS:
-* [HPC User Training - Tasks - Jan 22, 2021](./https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week2_running_jobs/HPC_UT21_Week2_run_jobs_Tasks_01_29_21.pdf)
-* [HPC-Overview.pdf](./HPC User Training - Week1 - Instructions.pdf)
+* Topic: Running Jobs: [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
+* [HPC User Training: Week2 Updates](./HPC_UT21_Week2_Updates_01_29_21.pdf)
+* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
 
 ## WEEK 2 TASKS:
 
-### Task 1: Getting Started:
+### Task 1: 
+#### Getting Started:
 * Register for the Training class: https://na.eventscloud.com/website/21055/home/
    * Last day is 1/30/2021
 * Clone the GitHub repo: https://github.com/sdsc-hpc-training-org/hpc-training-2021
@@ -20,15 +22,16 @@
    * Create portal account @ https://portal.xsede.org 
 * Submit XSEDE PortalID using course Form:  https://tinyurl.com/hpc-user-training-signup
    * Use xsede portal username
-
-### Task 2:  logging on to Expanse
+#### Logging on to Expanse
 * Once your account is created, make sure you can logon onto expanse:
    * login.expanse.sdsc.edu
 * Run some basic unix tasks (see week 1)
-
-### Task 2: 
-Complete Homework for Weeks 1 & 2 (see README file):
+####  Complete Homework for Week 1  (see README file):
 https://github.com/sdsc-hpc-training-org/hpc-training-2021
+
+### Task 2:
+* Follow the Expanse 101 tutorial in the training documentation above, doing the hands-on content on Expanse.
+* Execute the code the *examples* folder in this repository by following the instructions in the Expanse 101 tutorial
 
 ### Note:  Reporting your work:
 We will track your work using automated scripts, so you need to name the directories as described below:
