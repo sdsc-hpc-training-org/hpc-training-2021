@@ -7,7 +7,7 @@
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
 
 ## READING AND PRESENTATIONS:
-* Topic: Running Jobs: [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
+* Week2 Topic: [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
 * [HPC User Training: Week2 Updates](./HPC_UT21_Week2_Updates_01_29_21.pdf)
 * [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
 
