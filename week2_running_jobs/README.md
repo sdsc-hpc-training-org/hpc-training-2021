@@ -7,8 +7,8 @@
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
 
 ## READING AND PRESENTATIONS:
-* [HPC User Training - Overview - Jan 22, 2021](./hpc-user-training-overview-jan-22-2021.pdf)
-* [HPC-Overview.pdf](./hpc-overview.pdf)
+* [HPC User Training - Overview - Jan 22, 2021](./HPC_UT21_Week2_run_jobs_01_29_21.pdf)
+* [HPC-Overview.pdf](./HPC User Training - Week1 - Instructions.pdf)
 
 ## WEEK 2 TASKS:
 
