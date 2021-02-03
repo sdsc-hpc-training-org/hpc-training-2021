@@ -73,7 +73,7 @@ Note: we do not recommend using passwordless SSH.
 ### Note: Reporting your work:
 We will track your work using automated scripts, so you need to name the directories as described below:
 
-1. Create a directory under your Comet home account, and call it "hpct21" (for HPC Training)
+1. Create a directory under your Expanse home account, and call it "hpct21" (for HPC Training)
 2. Create a subdirectory called week1. If you want to add more information to the name, you can
 use the convention `week1_<your-description>`, e.g. `week1_introduction` .
 * This should result in a directory called 
