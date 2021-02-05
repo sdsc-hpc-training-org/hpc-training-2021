@@ -1,3 +1,3 @@
-alias getgpu='srun --partition=gpu-shared --reservation=gputraining \
-                   --nodes=1 --ntasks-per-node=6 --gres=gpu:k80:1 \
-                   -t 03:00:00 --pty --wait=0 /bin/bash'
+alias getgpu='srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 \
+ -p gpu-shared --gpus=1 -t 03:00:00 -A sds173 /bin/bash
+'
