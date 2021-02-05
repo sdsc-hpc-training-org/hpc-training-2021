@@ -1,20 +1,21 @@
 # SDSC HPC User Training:  Spring 2020
 **WEEK 3:** 01/24/2020
 
-## TOPIC:  CUDA/GPU Computing
-**Presented By:** [Andreas Goetz, SDSC](https://hpc-students.sdsc.edu/instr_bios/andreas_goetz.html) (agoetz  at  sdsc.edu)
+## TOPIC: GPU Computing and Programming
+
+**Presented By:** [Andreas Goetz, SDSC](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) (agoetz  at  sdsc.edu)
 
 ### READING AND PRESENTATIONS:
 
 Lecture slides:
-* [sdsc-scc-gpu-computing-2020-01-24.pdf](sdsc-scc-gpu-computing-2020-01-24.pdf)
+* [TBA](TBA)
 
 Example source code accompanying the lecture slides with instructions are in directory gpu-code-examples.
 
 
-## WEEK 3 TASKS:
+## WEEK3 TASKS:
 ### TASK 1:  Using GPU nodes  
-    Clone this repository; 
+    Clone this repository;
     `cd` into the `gpu-code-examples` directory
 
 ```
@@ -24,7 +25,7 @@ See the README.md file in the tarfile directory and
 follow instructions on "How to use Comet's GPU nodes"
 
 
-# Obtain interactive shared GPU node on SDSC Comet 
+# Obtain interactive shared GPU node on SDSC Comet
 Source `getgpu.rc`, which defines an alias `getgpu` that you can use to obtain an interactive GPU node:
 `source getgpu.rc`
 `getgpu`
@@ -56,19 +57,19 @@ export LM_LICENSE_FILE=40200@elprado.sdsc.edu:$LM_LICENSE_FILE
 ### TASKS 2 and 3 begin in the section called:
 *"Simple code samples accompanying slides"*
 
-Change to directory cuda-samples, compile with 
+Change to directory cuda-samples, compile with
 ```
 nvcc example.cu -o example.x
 ```
 
-### TASK 2:  cd into the GPU code directory: 
+### TASK 2:  cd into the GPU code directory:
 ```
 % cd gpu-code-examples/cuda-samples
 ```
 
 See the README.md files for instructions.
 Run the following examples
- 
+
 	- hello_world
 	- addition
 
@@ -79,13 +80,13 @@ Run the following examples
 ```
 See the README.md file for instructions.
 
-Compile C code with OpenACC pragmas with 
+Compile C code with OpenACC pragmas with
 ```
 pgcc example.c -o example.x -acc -Minfo=accel
 ```
 
-Compile and run the following example: 
-``` 
+Compile and run the following example:
+```
 	 - saxpy
 ```	 
 The more ambitious are free to reproduce timings for the `laplace-2d` example (see README.md file)
