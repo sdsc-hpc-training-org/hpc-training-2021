@@ -22,10 +22,10 @@ Example source code accompanying the lecture slides with instructions are in dir
 % cd gpu-code-examples
 ```
 See the README.md file in the tarfile directory and
-follow instructions on "How to use Comet's GPU nodes"
+follow instructions on "How to use Expanse's GPU nodes"
 
 
-# Obtain interactive shared GPU node on SDSC Comet
+# Obtain interactive shared GPU node on SDSC Expanse
 Source `getgpu.rc`, which defines an alias `getgpu` that you can use to obtain an interactive GPU node:
 `source getgpu.rc`
 `getgpu`
@@ -33,21 +33,25 @@ Source `getgpu.rc`, which defines an alias `getgpu` that you can use to obtain a
 The script `getgpu.rc` defines the SLURM launch command below to obtain an interactive node with access to 1 K80 GPU on the shared GPU nodes for 3h. You can also execute this command directly on the command line:
 
 ```
-srun --partition=gpu-shared --reservation=gputraining \
-     --nodes=1 --ntasks-per-node=6 --gres=gpu:k80:1 \
-     -t 03:00:00 --pty --wait=0 /bin/bash
+alias getgpu='srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 \
+ -p gpu-shared --gpus=1 -t 03:00:00 -A sds173 /bin/bash
+
 ```
 
 It may take some time to get the interactive node.
 
 Load the CUDA and PGI compiler modules
+do we need module load gnutools
+
 ```
 module purge
-module load gnutools
-module load cuda
+module load slurm
+module load gpu
 module load pgi
+
 ```
 
+Note: MPT (2/4/21) This should not be needed:
 If you get a license error when executing the PGI compilers, execute the following:
 ```
 export LM_LICENSE_FILE=40200@elprado.sdsc.edu:$LM_LICENSE_FILE
