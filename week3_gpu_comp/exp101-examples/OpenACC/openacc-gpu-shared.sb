@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name="OpenACC"
+#SBATCH --output="OpenACC.%j.%N.out"
+#SBATCH --partition=gpu-shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gpus=1
+#SBATCH -t 01:00:00
+
+#Environment
+module purge
+module load slurm
+module load gpu
+module load pgi
+
+#Run the job
+./laplace2d.openacc.exe
