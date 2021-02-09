@@ -9,6 +9,11 @@ Directory content as explained below
 For exercises see subdirectories exercise/, which contain CUDA
 code that needs either fixing or improving. See comment in the
 source code.
+
+See instructions for loading the GPU environment on Expanse:
+### Load the GPU environment modules
+* See: [Loading the GPU CUDA Environment](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/loading_cuda_env.md) file, located in this repository.
+
 ------------------------------------------------------------------------
 
 ./hello_world/
