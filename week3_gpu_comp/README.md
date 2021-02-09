@@ -45,8 +45,9 @@ Load the GPU environment modules
 ```
 module purge
 module load slurm
-module load gpu
+module load  gpu/0.15.4
 module load pgi
+
 ```
 * Once you have loaded the *gpu* module, you will have access to the CUDA libraries. Run the *avail*
 ```
