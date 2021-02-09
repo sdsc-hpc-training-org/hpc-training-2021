@@ -1,4 +1,4 @@
-Content
+# Content
 =======
 This directory contains the slides and exercises for the
 SDSC HPC User Training 2021 in GPU computing and programming.
@@ -11,9 +11,10 @@ Andreas Goetz, SDSC (agoetz@sdsc.edu)
 How to use Expanse's GPU nodes
 ============================
 
-# Obtain interactive shared GPU node on SDSC Expanse (3h allocation)
-* setup your CUDA environment:
-#Environment
+## Obtain interactive shared GPU node on SDSC Expanse (3h allocation)
+
+
+* setup the module environment:
 
 ```
 module purge
@@ -36,18 +37,8 @@ srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 \
 
 ```
 
-
-# Load CUDA and PGI compiler modules
-
-```
-
-module purge
-module load slurm
-module load gpu
-module load gcc 
-module load pgi
-
-```
+## Load the GPU environment modules
+* See: [Loading the GPU CUDA Environment](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/loading_cuda_env.md) file, located in this repository.
 
 
 ### Check nvcc compiler version
@@ -79,11 +70,13 @@ ID of the free GPU.
 
 ### Copy and compile CUDA code samples that come with the CUDA Toolkit
 
-Install into current directory:
+Install into cuda code directory directory <gpu-code-examples>:
 
 ```
-cuda-install-samples-7.0.sh ./
-cd NVIDIA_CUDA-7.0_Samples
+mkdir gpu-code-examples
+
+cp -r /cm/shared/apps/cuda10.2/sdk/10.2.89 ./gpu-code-examples
+cd gpu-code-examples
 
 ```
 
