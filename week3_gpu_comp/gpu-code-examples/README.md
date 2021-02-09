@@ -19,6 +19,7 @@ How to use Expanse's GPU nodes
 module purge
 module load slurm
 module load gpu
+module load gcc 
 module load pgi
 
 ```
@@ -41,12 +42,10 @@ srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 \
 ```
 
 module purge
-module load gnutools
-module purge
 module load slurm
 module load gpu
+module load gcc 
 module load pgi
-
 
 ```
 
