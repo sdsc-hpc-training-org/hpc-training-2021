@@ -1,6 +1,38 @@
 ## Loading the CUDA environment on GPUs
 
-Load the GPU environment modules
+### Getting access to a GPU node
+You will either access the node directly using the *srun* command to obtain an interactive node, or via the *sbatch* command that submits your *batchscript* to the Slurm queue.
+
+#### Verify that you are on a GPU node:
+* Run the *nvidia-smi* command:
+
+```
+[mthomas@exp-7-59 ~]$ nvidia-smi
+Mon Feb  8 22:17:24 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.51.05    Driver Version: 450.51.05    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  On   | 00000000:18:00.0 Off |                    0 |
+| N/A   32C    P0    41W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
+
+### Set up the GPU module environment
+
+Load the GPU environment modules -- add these lines to your batch script, or enter them on the command line
 
 ```
 module purge
