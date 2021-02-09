@@ -8,7 +8,7 @@
 ### READING AND PRESENTATIONS:
 
 Lecture slides:
-* [TBA](TBA)
+* [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
 
 Example source code accompanying the lecture slides with instructions are in directory gpu-code-examples.
 
