@@ -40,8 +40,7 @@ alias getgpu='srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 \
 
 It may take some time to get the *interactive node*.
 
-Load the CUDA and PGI compiler modules
-do we need module load gnutools
+Load the GPU environment modules
 
 ```
 module purge
