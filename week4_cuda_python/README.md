@@ -17,6 +17,7 @@ https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week4_cuda_
 
 ### Task 1: Test Jupyter notebook examples for Numba 
 Run computing_pi_solution.ipynb via jupyter 
+
 Run distance_matrix_solution.ipynb via jupyter
 
 ### Task 2: Test Jupyter notebook examples for CuPy
