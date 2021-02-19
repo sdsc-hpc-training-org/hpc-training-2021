@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name="pi"
+#SBATCH --output="pi.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --account=XYZ123
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+module load gcc
+#Export the number of OpenMP threads
+export OMP_NUM_THREADS=16
+
+#Run the openmp code
+./pi_openmp

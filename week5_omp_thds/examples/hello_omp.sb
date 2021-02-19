@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name="hello"
+#SBATCH --output="hello.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --account=XYZ123
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+module load gcc
+#Export the number of OpenMP threads
+export OMP_NUM_THREADS=8
+
+#Run the openmp code
+./hello_fortran
+./hello_c

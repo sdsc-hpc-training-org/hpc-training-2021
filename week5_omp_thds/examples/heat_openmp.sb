@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name="heat"
+#SBATCH --output="heat.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=3
+#SBATCH --account=XYZ123
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+module load gcc
+## Set number of threads
+export OMP_NUM_THREADS=3
+
+## Run code
+./heat_openmp
