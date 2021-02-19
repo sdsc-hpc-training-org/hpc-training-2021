@@ -15,10 +15,13 @@ Lecture slides:
 ## WEEK4 TASKS:
 
 ### Task 1: 
+Compile and execute the 'hello, shared memory world' example source code on your laptop.
 
+### Task 2:
+Compile and execute the 'hello, shared memory world' example source code on Expanse and run it as a batch job.
 
-### Task 2: 
-
+### Task 3: 
+Write a small program to perform a matrix-vector operation and then parallelize the code with OpenMP. 
 
 ### Note: Reporting your work:
 We will track your work using automated scripts
