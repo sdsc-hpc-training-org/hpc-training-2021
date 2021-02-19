@@ -33,14 +33,8 @@ https://github.com/sdsc-hpc-training-org/hpc-training-2021
 * Follow the Expanse 101 tutorial in the training documentation above, doing the hands-on content on Expanse.
 * Execute the code the *examples* folder in this repository by following the instructions in the Expanse 101 tutorial
 
-### Note:  Reporting your work:
-We will track your work using automated scripts, so you need to name the directories as described below:
-
-1. Create a directory under your Expanse home account, and call it "hpct21" (for HPC Training)
-2. Create a subdirectory called week1. If you want to add more information to the name, you can
-use the convention `week1_<your-description>`, e.g. `week1_<introduction>` .
-* This should result in a directory called 
-*	/home/$USER/hpct21/week1_<your-description>
-
+### Note: Reporting your work:
+We will track your work using automated scripts
+You will need to name the directories and permissions as described in the ``reporting_your_work.md`` document.
 
 For questions or comments, contact Mary Thomas @ mpthomas  at  ucsd.edu

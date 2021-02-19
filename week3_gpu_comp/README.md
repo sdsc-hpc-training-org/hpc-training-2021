@@ -79,3 +79,7 @@ Compile and run the following example:
 	 - saxpy
 ```	 
 The more ambitious are free to reproduce timings for the `laplace-2d` example (see README.md file)
+
+### Note: Reporting your work:
+We will track your work using automated scripts
+You will need to name the directories and permissions as described in the ``reporting_your_work.md`` document.

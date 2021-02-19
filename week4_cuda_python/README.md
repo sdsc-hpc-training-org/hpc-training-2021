@@ -25,3 +25,8 @@ Run CuPy_examples.ipynb
 
 ### Task 3: Homework to complete law of cosines notebook
 Complete and run law_of_cosines.ipynb
+
+
+### Note: Reporting your work:
+We will track your work using automated scripts
+You will need to name the directories and permissions as described in the ``reporting_your_work.md`` document.
