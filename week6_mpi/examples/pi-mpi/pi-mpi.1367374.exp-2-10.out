@@ -1,0 +1,17 @@
+Hello from MPI task= 0 on exp-2-10
+Hello from MPI task= 3 on exp-2-10
+Hello from MPI task= 8 on exp-2-11
+Hello from MPI task= 1 on exp-2-10
+Hello from MPI task= 2 on exp-2-10
+Hello from MPI task= 10 on exp-2-12
+Hello from MPI task= 4 on exp-2-10
+Hello from MPI task= 6 on exp-2-11
+Hello from MPI task= 9 on exp-2-11
+Hello from MPI task= 12 on exp-2-12
+Hello from MPI task= 13 on exp-2-12
+Hello from MPI task= 11 on exp-2-12
+Hello from MPI task= 14 on exp-2-12
+Hello from MPI task= 5 on exp-2-11
+Hello from MPI task= 7 on exp-2-11
+Number of MPI tasks = 15
+Pi = 3.141575075349

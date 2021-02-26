@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name="pi-mpi"
+#SBATCH --output="pi-mpi.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=3
+#SBATCH --ntasks-per-node=5
+#SBATCH --export=ALL
+#SBATCH -t 00:04:00
+#SBATCH -A sds173
+
+## Environment
+## MODULE ENV: updated 01/28/2020 (MPT)
+ module purge
+ module load slurm
+ module load cpu
+ module load gcc/10.2.0
+ module load openmpi/4.0.4
+
+## This job can run on up to 3 nodes, 
+## and a max of 3*5=15 cores
+
+## Use mpirun to run the job
+mpirun -np 15  ./pi_mpi
