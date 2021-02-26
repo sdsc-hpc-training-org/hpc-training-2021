@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name="heat_mpi_profile"
+#SBATCH --output="heat_mpi_profile.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=3
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+#SBATCH -A sds173
+
+#module Env:
+module purge
+module load cpu
+module load slurm 
+module load gcc
+module load openmpi
+module load libunwind
+module load mpip
+
+## Run code
+mpirun -np 3 ./heat_mpi_profile.exe
+
