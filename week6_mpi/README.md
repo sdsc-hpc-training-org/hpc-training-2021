@@ -6,10 +6,11 @@
 
 **Presented By:** [Mary Thomas, SDSC](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html) (mpthomas  at  ucsd.edu)
 
-## READING AND PRESENTATIONS:
+## READINGS AND PRESENTATIONS:
 
-Lecture slides: [HPC-UTr-21-week6-MPI.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week6_mpi/HPC-UTr-21-week6-MPI.pdf)
-
+* **Lecture slides:** [Week 6: CPU Computing: Introduction to MPI](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week6_mpi/HPC-UTr-21-week6-MPI.pdf)
+* **Video Recording:** [Week 6: Video TBD]
+* **Source Code/Examples:** [week6_mpi/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week6_mpi/examples)
 
 ## WEEK 6 TASKS:
 
