@@ -9,7 +9,10 @@ WEEK 5: 02/19/2021
 
 ## READING AND PRESENTATIONS:
 
-Lecture slides:
+* **Lecture slides:** [Week 5: CPU Computing: Introduction to OpenMP/Threads	](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week4_cuda_python/SDSC_HPC_Training_CUDA_Python.pdf)
+* **Video Recording:** [Week 5: CPU Computing: Introduction to OpenMP/Threads	](https://www.youtube.com/watch?v=gIJF2YD56g0)
+* **Source Code/Examples:** [week5_omp_thds/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week5_omp_thds/examples)
+
 
 
 ## WEEK4 TASKS:
