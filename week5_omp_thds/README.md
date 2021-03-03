@@ -5,7 +5,7 @@ WEEK 5: 02/19/2021
 
 ## TOPIC: CPU Computing: Introduction to OpenMP/Threads	
 
-Presented By: Mahidhar Tatineni, SDSC
+** Presented By:** [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu)
 
 ## READING AND PRESENTATIONS:
 

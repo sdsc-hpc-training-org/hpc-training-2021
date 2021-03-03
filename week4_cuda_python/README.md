@@ -1,11 +1,10 @@
-
 # SDSC HPC User Training: Spring 2021
 
 WEEK 4: 02/12/2021
 
 ## TOPIC: CUDA Python: Introduction to Numba AND CuPy
 
-Presented By: Mahidhar Tatineni, SDSC
+** Presented By: [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu))
 
 ## READING AND PRESENTATIONS:
 

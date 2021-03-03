@@ -4,7 +4,7 @@
 ## WEEK 1: Jan 22, 2021
 
 ## TOPIC:  Kickoff and Orientation
-**Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
+**Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html)  (mpthomas at ucsd.edu)
 
 ## READING AND PRESENTATIONS:
 * [HPC User Training - Overview](./hpc-overview-jan2021.pdf)

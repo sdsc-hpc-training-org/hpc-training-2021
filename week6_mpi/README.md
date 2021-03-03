@@ -4,7 +4,7 @@
 
 ## TOPIC: CPU Computing: Introduction to MPI
 
-Presented By: Mary Thomas, SDSC
+**Presented By:** [Mary Thomas, SDSC](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html) (mpthomas  at  ucsd.edu)
 
 ## READING AND PRESENTATIONS:
 
