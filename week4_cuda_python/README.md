@@ -8,9 +8,9 @@ WEEK 4: 02/12/2021
 
 ## READING AND PRESENTATIONS:
 
-Lecture slides:
-
-https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week4_cuda_python/SDSC_HPC_Training_CUDA_Python.pdf
+* **Lecture slides:** [Week 4: CUDA Python](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week4_cuda_python/SDSC_HPC_Training_CUDA_Python.pdf)
+* **Video Recording:** [Week 4: CUDA Python](https://www.youtube.com/watch?v=1nMFCl0-ebo)
+* **Source Code/Examples:** [week4_running_jobs/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week4_cuda_python/examples)
 
 ## WEEK4 TASKS:
 
