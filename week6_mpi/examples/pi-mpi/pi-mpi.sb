@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name="pi-mpi"
 #SBATCH --output="pi-mpi.%j.%N.out"
-#SBATCH --partition=compute
+#SBATCH --partition=shared
 #SBATCH --nodes=3
 #SBATCH --ntasks-per-node=5
 #SBATCH --export=ALL
