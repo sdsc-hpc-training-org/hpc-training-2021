@@ -7,14 +7,11 @@
 
 ### READING AND PRESENTATIONS:
 
-**Video Recording:** 
-* [Week 3: GPU Computing and Programming](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
+**Lecture slides:** [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
 
-**Lecture slides:**
-* [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
+**Video Recording:** [Week 3: GPU Computing and Programming](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
 
-Example source code accompanying the lecture slides with instructions are in directory gpu-code-examples.
-
+**Source Code/Examples:** [week3_gpu_comp](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp)
 
 ## WEEK3 TASKS:
 ### TASK 1:  Using GPU nodes  
