@@ -5,12 +5,12 @@
 
 ## TOPIC:  Running Jobs on Expanse
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
-**Video Recording:** [Week 2: Running Jobs on Expanse](https://www.youtube.com/watch?v=nTcOp7LNle0)
+
 
 ## READING AND PRESENTATIONS:
-* **Lecture slides:** [x](y)
-* **Video Recording:** [x](y)
-* **Source Code/Examples:** [x](y)
+* **Lecture slides:** [Week 2: Running Jobs on Expanse](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week2_running_jobs/HPC_UT21_Week2_Updates_01_29_21.pdf)
+* **Video Recording:** [Week 2: Running Jobs on Expanse](https://www.youtube.com/watch?v=nTcOp7LNle0)
+* **Source Code/Examples:** [week2_running_jobs/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week2_running_jobs/examples)
 * **Related Information:**
 * [HPC User Training: Week2 Updates](./HPC_UT21_Week2_Updates_01_29_21.pdf)
 * [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
