@@ -15,13 +15,15 @@ Lecture slides:
 
 ### Task 1: 
 Compile and run the examples in the ```hello-mpi``` directory.
+Notice what happens if you ask for more cores or nodes.
 
 ### Task 2:
-TBD
+Compile and run the examples in the ```pi-mpi``` directory.
+What changes can be made to the code or batch script to improve accuracy?
 
 ### Task 3: 
-TBD
-
+Compile and run the examples in the ```collectives``` directory.
+Observe what happens when you change the number of nodes/cores in the batch script.
 
 ### Note: Reporting your work:
 We will track your work using automated scripts
