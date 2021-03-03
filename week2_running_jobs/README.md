@@ -6,8 +6,7 @@
 ## TOPIC:  Running Jobs on Expanse
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
 
-
-## READING AND PRESENTATIONS:
+## READINGS AND PRESENTATIONS:
 * **Lecture slides:** [Week 2: Running Jobs on Expanse](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week2_running_jobs/HPC_UT21_Week2_Updates_01_29_21.pdf)
 * **Video Recording:** [Week 2: Running Jobs on Expanse](https://www.youtube.com/watch?v=nTcOp7LNle0)
 * **Source Code/Examples:** [week2_running_jobs/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week2_running_jobs/examples)
