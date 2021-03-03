@@ -2,13 +2,13 @@
 
 ###  WEEK 6: 02/26/2021
 
-## TOPIC: CPU Computing: Introduction to OpenMP/Threads	
+## TOPIC: CPU Computing: Introduction to MPI
 
 Presented By: Mary Thomas, SDSC
 
 ## READING AND PRESENTATIONS:
 
-Lecture slides:
+Lecture slides: [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week6_mpi/HPC-UTr-21-week6-MPI.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week6_mpi/HPC-UTr-21-week6-MPI.pdf)
 
 
 ## WEEK 6 TASKS:
