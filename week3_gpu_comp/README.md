@@ -5,13 +5,14 @@
 
 **Presented By:** [Andreas Goetz, SDSC](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) (agoetz  at  sdsc.edu)
 
-### READING AND PRESENTATIONS:
+### READINGS AND PRESENTATIONS:
 
-**Lecture slides:** [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
+* **Lecture slides:** [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
+* **Video Recording:** [Week 3: GPU Computing and Programming](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
+* **Source Code/Examples:** 
+    * [exp101-examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp/exp101-examples/OpenACC)
+    * [gpu-code-examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp/gpu-code-examples)
 
-**Video Recording:** [Week 3: GPU Computing and Programming](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
-
-**Source Code/Examples:** [week3_gpu_comp](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp)
 
 ## WEEK3 TASKS:
 ### TASK 1:  Using GPU nodes  
