@@ -5,6 +5,7 @@
 
 ## TOPIC:  Running Jobs on Expanse
 **Presented By:** [Mary Thomas, SDSC](https://hpc-students.sdsc.edu/instr_bios/mary_thomas.html) (mpthomas at ucsd.edu)
+**Video Recording:** [Week 2: Running Jobs on Expanse](https://www.youtube.com/watch?v=nTcOp7LNle0)
 
 ## READING AND PRESENTATIONS:
 * Week2 Topic: [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
