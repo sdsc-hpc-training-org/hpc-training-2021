@@ -8,7 +8,10 @@
 
 ## READING AND PRESENTATIONS:
 
-Lecture slides:
+* **Lecture slides:** [Week 7: TBD]()
+* **Video Recording:** [Week 6: Video TBD]
+* **Source Code/Examples:** [TBDs]()
+
 
 
 ## WEEK 7 TASKS:
