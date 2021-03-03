@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name="heat_mpi"
+#SBATCH --output="heat_mpi.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=3
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+#SBATCH -A use300
+
+## Load module environment
+ module purge
+ module load slurm
+ module load cpu
+ module load gcc/10.2.0
+ module load openmpi
+
+## Run code
+srun --mpi=pmi2 -n 3 --cpu-bind=rank ./heat_mpi
+

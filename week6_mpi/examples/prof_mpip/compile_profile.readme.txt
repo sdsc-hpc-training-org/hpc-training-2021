@@ -1,0 +1,2 @@
+mpif90 -ffixed-form -g -o heat_mpi_profile.exe heat_mpi.f90 -L${MPIPHOME}/lib -lmpiP -L${LIBUNWINDHOME}/lib -lunwind
+

@@ -1,0 +1,20 @@
+mpiP: 
+mpiP: mpiP: mpiP V3.4.1 (Build Feb 26 2021/06:50:01)
+mpiP: Direct questions and errors to mpip-help@lists.sourceforge.net
+mpiP: 
+ Process            2 of           3 has started
+ Process            1 of           3 has started
+ Processor           1 has finished setting                initial conditions
+ Processor           2 has finished setting                initial conditions
+ Process            0 of           3 has started
+ Processor           0 has finished setting                initial conditions
+ Running Iteration Number            1
+ Sending and receiving overlap points
+ Running Iteration Number            2
+ Sending and receiving overlap points
+ Running Iteration Number            3
+ Sending and receiving overlap points
+ SOLUTION SENT TO FILE AFTER 3 TIMESTEPS:
+mpiP: 
+mpiP: Storing mpiP output in [./heat_mpi_profile.exe.3.33194.1.mpiP].
+mpiP: 

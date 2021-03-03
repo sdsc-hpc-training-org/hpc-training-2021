@@ -1,0 +1,13 @@
+ Process            0 of           3 has started
+ Processor           0 has finished setting initial          conditions
+ Running Iteration Number            1
+ Sending and receiving overlap points
+ Process            1 of           3 has started
+ Processor           1 has finished setting initial          conditions
+ Process            2 of           3 has started
+ Processor           2 has finished setting initial          conditions
+ Running Iteration Number            2
+ Sending and receiving overlap points
+ Running Iteration Number            3
+ Sending and receiving overlap points
+ SOLUTION SENT TO FILE AFTER 3 TIMESTEPS:
