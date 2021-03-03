@@ -12,9 +12,10 @@
 * **Video Recording:** [Week 2: Running Jobs on Expanse](https://www.youtube.com/watch?v=nTcOp7LNle0)
 * **Source Code/Examples:** [week2_running_jobs/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week2_running_jobs/examples)
 * **Related Information:**
-* [HPC User Training: Week2 Updates](./HPC_UT21_Week2_Updates_01_29_21.pdf)
-* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
-* [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
+   * [HPC User Training: Week2 Updates](./HPC_UT21_Week2_Updates_01_29_21.pdf)
+   * [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
+   * [Expanse 101 - Running Jobs](https://hpc-training.sdsc.edu/expanse-101/)
+
 
 ## WEEK 2 TASKS:
 
