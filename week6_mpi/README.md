@@ -11,10 +11,10 @@ Presented By: Mary Thomas, SDSC
 Lecture slides:
 
 
-## WEEK4 TASKS:
+## WEEK 6 TASKS:
 
 ### Task 1: 
-TBD
+Compile and run the examples in the ```hello-mpi``` directory.
 
 ### Task 2:
 TBD
