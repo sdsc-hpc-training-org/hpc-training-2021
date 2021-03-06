@@ -14,6 +14,9 @@
 
 ## Description:  profiling-tutorial
 Brief tutorial illustrating gprof and AMD uProf with exercises that run as-is on SDSC's *Expanse*
+* **Note:**  The material in this repository was pulled on 3/5/21 from the following repo: 
+   * https://github.com/sinkovit/profiling-tutorial
+   * Check this repository for updates.
 
 ### TimeBasedSampling
 Demonstration of gprof and uProf on a contrived Fortran example. The subdirectories contain uProf output in
