@@ -29,14 +29,22 @@ both CSV SQLite (.db) format.
 
 ## WEEK 7 TASKS:
 
-### Task 1: 
-TBD
+### Task 1: Self-paced exercises – gprof
+* Run the gprof example (intro.f code) and convince yourself that you understand the output.
+* Modify functions f1 and f2 in intro.f to use sin, cos, and log functions. How does this affect what you see in the gprof output? (Hint – google SVML).
+These functions are expensive and can lead to longer run times – adjust problem size accordingly. For your convenience, commented lines already added to file.
+* Break intro.f into multiple files and rerun gprof. What does this tell you about the compiler’s inlining capabilities?
+   * intro.fà2 files: main.f, library.f (sub1, sub2, f1, f2)
+   * intro.fà3 files: main.f, subs.f (sub1, sub2), funcs.f (f1, f2)
+* Explore other compilers (AOCC flang and GCC gfortran)
 
-### Task 2:
-TBD
-
-### Task 3: 
-TBD
+### Task 2: Self-paced exercises – uProf
+* Read the uProf user guide https://developer.amd.com/wordpress/media/files/AMDuprof_Resources/User_G uide_AMD_uProf_v3.3_GA.pdf
+* Once uProf is installed on Expanse
+   * Profile intro.f using time based profiling
+   * Profile matrix addition (dmadd_[good|bad].f) using time based and data access profiling
+   * Look at the effect of omitting -g flag on uProf output
+   * Investigate effect of matrix addition problem size. Do you see the same behavior for other powers of two (e.g., N=16,384, 8192) or dimensions that contain large powers of two (e.g., N=213 x 3 = 24,576)
 
 
 ### Note: Reporting your work:
