@@ -8,15 +8,15 @@
 
 ## READING AND PRESENTATIONS:
 
-* **Lecture slides:** [Week 7: TBD]()
+* **Lecture slides:** [Week 7: CPU profiling on Expanse](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week7_cpu_prof/ProfileExpanse.pdf)
 * **Video Recording:** [Week 6: Video TBD]
-* **Source Code/Examples:** [TBDs]()
+* **Source Code/Examples:** 
+   * **Note:**  The material in this repository was pulled on 3/5/21 from the following repo: 
+   * https://github.com/sinkovit/profiling-tutorial
+   * Check this repository for updates.
 
 ## Description:  profiling-tutorial
 Brief tutorial illustrating gprof and AMD uProf with exercises that run as-is on SDSC's *Expanse*
-* **Note:**  The material in this repository was pulled on 3/5/21 from the following repo: 
-   * https://github.com/sinkovit/profiling-tutorial
-   * Check this repository for updates.
 
 ### TimeBasedSampling
 Demonstration of gprof and uProf on a contrived Fortran example. The subdirectories contain uProf output in
