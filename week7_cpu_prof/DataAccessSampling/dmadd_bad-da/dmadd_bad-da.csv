@@ -1,0 +1,86 @@
+
+AMDuProf PROFILE REPORT
+
+EXECUTION
+Target Path:,"/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_bad"
+Command Line Arguments:,"30000 "
+Working Directory:,"/home/sinkovit/profiling_tutorial/DataAccessSampling"
+Environment Variables:
+CPU Details:,"Family(0x17), Model(0x31), Number of Cores(128)"
+Operating System:,"LinuxCentOS Linux 8 (Core)-64 Kernel:4.18.0-147.el8.x86_64"
+
+PROFILE DETAILS
+Profile Session Type:,"Investigate Data Access"
+Profile Scope:,"Single Application"
+CPU Mask:,"0-127"
+CPU Affinity Mask:,"0-127"
+Profile Start Time:,"Mar-05-2021_12-14-41"
+Profile End Time:,"Mar-05-2021_12-14-55"
+Profile Duration:,"14 seconds"
+Data Folder:,"/home/sinkovit/profiling_tutorial/DataAccessSampling"
+Virtual Machine:,"No"
+Call Stack Sampling:,"False"
+
+Monitored Events:,Name,Interval,Unitmask,User,OS
+,"Misaligned loads (PMCx047)",25000,0,True,True
+,"Cycles not in Halt (PMCx076)",250000,0,True,True
+,"Retired Instructions (PMCx0C0)",250000,0,True,True
+,"LS MAB Allocates By Type (PMCx041)",25000,b,True,True
+,"Data Cache Refills from System (PMCx043)",25000,11,True,True
+,"L1 DTLB Misses (PMCx045)",25000,ff,True,True
+
+"HOT FUNCTIONS (Sort Event - CPU clocks)"
+FUNCTION,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"MAIN__",0,108403,33571,69520,1342,46910,0.2071,0.0040,0.3097,3.2291,0.0000,0.1397
+"clear_page_rep",0,18197,2160,6066,4343,1302,0.2808,0.2011,0.1187,8.4245,0.0000,0.0603
+"__handle_mm_fault",2,3225,2176,658,499,431,0.0302,0.0229,0.6747,1.4821,0.0001,0.0198
+"page_fault",0,2241,1109,550,563,120,0.0496,0.0508,0.4949,2.0207,0.0000,0.0108
+"_raw_spin_lock",0,1603,531,520,86,438,0.0979,0.0162,0.3313,3.0188,0.0000,0.0825
+"get_page_from_freelist",0,931,487,437,71,189,0.0897,0.0146,0.5231,1.9117,0.0000,0.0388
+"__list_del_entry_valid",0,612,791,184,59,122,0.0233,0.0075,1.2925,0.7737,0.0000,0.0154
+"up_read",0,585,290,135,62,135,0.0466,0.0214,0.4957,2.0172,0.0000,0.0466
+"free_pcppages_bulk",0,562,1094,123,63,55,0.0112,0.0058,1.9466,0.5137,0.0000,0.0050
+"mem_cgroup_throttle_swaprate",0,541,162,231,25,144,0.1426,0.0154,0.2994,3.3395,0.0000,0.0889
+
+
+"HOT PROCESSES (Sort Event - CPU clocks)"
+PROCESS,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_bad (PID - 70547),2,143258,47901,79864,8055,50610,0.1667,0.0168,0.3344,2.9907,0.0000,0.1057
+
+Function Detail Data
+Function,File,Line,SourceCode,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"MAIN__",,,,0,108403,33571,69520,1342,46910,0.207,0.004,0.310,3.229,0.000,0.140
+,/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_bad.f,21,"do j=1,n",0,8,13,8,0,0,0.062,0.000,1.625,0.615,0.000,0.000
+,,23,"x(i,j) = i*1.1 + j*2.2",0,986,1790,1743,9,1,0.097,0.001,1.815,0.551,0.000,0.000
+,,24,"y(i,j) = i*3.3 + j*4.4",0,3135,5437,5553,45,2,0.102,0.001,1.734,0.577,0.000,0.000
+,,30,"do i=1,n",0,0,0,0,0,1,0.000,0.000,0.000,0.000,0.000,0.000
+,,31,"do j=1,n",0,94446,22492,54772,985,42135,0.244,0.004,0.238,4.199,0.000,0.187
+,,32,"z(i,j) = x(i,j) + y(i,j)",0,9828,3839,7444,303,4771,0.194,0.008,0.391,2.560,0.000,0.124
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"clear_page_rep" (BINARY FILE NOT FOUND),0,18197,2160,6066,4343,1302,0.281,0.201,0.119,8.425,0.000,0.060
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"__handle_mm_fault" (BINARY FILE NOT FOUND),2,3225,2176,658,499,431,0.030,0.023,0.675,1.482,0.000,0.020
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"page_fault" (BINARY FILE NOT FOUND),0,2241,1109,550,563,120,0.050,0.051,0.495,2.021,0.000,0.011
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"_raw_spin_lock" (BINARY FILE NOT FOUND),0,1603,531,520,86,438,0.098,0.016,0.331,3.019,0.000,0.082
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"get_page_from_freelist" (BINARY FILE NOT FOUND),0,931,487,437,71,189,0.090,0.015,0.523,1.912,0.000,0.039
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"__list_del_entry_valid" (BINARY FILE NOT FOUND),0,612,791,184,59,122,0.023,0.007,1.292,0.774,0.000,0.015
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"up_read" (BINARY FILE NOT FOUND),0,585,290,135,62,135,0.047,0.021,0.496,2.017,0.000,0.047
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"free_pcppages_bulk" (BINARY FILE NOT FOUND),0,562,1094,123,63,55,0.011,0.006,1.947,0.514,0.000,0.005
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"mem_cgroup_throttle_swaprate" (BINARY FILE NOT FOUND),0,541,162,231,25,144,0.143,0.015,0.299,3.340,0.000,0.089
+

@@ -1,0 +1,10 @@
+module load gcc
+gfortran -march=znver2 -g -O3 -o dmadd_good dmadd_good.f
+gfortran -march=znver2 -g -O3 -o dmadd_bad  dmadd_bad.f
+
+# Data access profiling
+AMDuProfCLI-bin collect --config data_access -o dmadd_good-da ./dmadd_good 30000
+AMDuProfCLI-bin report -i dmadd_good-da.caperf
+
+AMDuProfCLI-bin collect --config data_access -o dmadd_bad-da ./dmadd_bad 30000
+AMDuProfCLI-bin report -i dmadd_bad-da.caperf

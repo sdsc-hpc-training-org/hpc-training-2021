@@ -1,0 +1,11 @@
+module load intel
+
+# With function inlining
+ifort -g -march=core-avx2 -O3 -o intro_inline intro.f
+AMDuProfCLI-bin collect --config tbp -o intro_inline-tbp ./intro_inline 1000000000
+AMDuProfCLI-bin report -i intro_inline-tbp.caperf
+
+# Without function inlining
+ifort -g -march=core-avx2 -O3 -inline-level=0 -o intro_noinline intro.f
+AMDuProfCLI-bin collect --config tbp -o intro_noinline-tbp ./intro_noinline 1000000000
+AMDuProfCLI-bin report -i intro_noinline-tbp.caperf

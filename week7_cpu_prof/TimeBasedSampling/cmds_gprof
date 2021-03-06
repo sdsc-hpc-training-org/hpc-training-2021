@@ -1,0 +1,11 @@
+module load intel
+
+# With function inlining
+ifort -pg -march=core-avx2 -O3 -o intro_inline intro.f
+time ./intro_inline 1000000000
+gprof intro_inline gmon.out > profile_intro_inline
+
+# Without function inlining
+ifort -pg -march=core-avx2 -O3 -inline-level=0 -o intro_noinline intro.f
+time ./intro_noinline 1000000000
+gprof intro_noinline gmon.out > profile_intro_noinline

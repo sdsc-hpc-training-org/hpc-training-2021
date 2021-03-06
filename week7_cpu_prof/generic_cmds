@@ -1,0 +1,2 @@
+# --- Get list of profiling options ---
+AMDuProfCLI-bin info --list collect-configs

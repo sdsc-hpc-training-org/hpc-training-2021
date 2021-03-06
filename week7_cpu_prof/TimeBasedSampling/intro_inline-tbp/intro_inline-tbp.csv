@@ -1,0 +1,83 @@
+
+AMDuProf PROFILE REPORT
+
+EXECUTION
+Target Path:,"/home/sinkovit/profiling_tutorial/TimeBasedSampling/intro_inline"
+Command Line Arguments:,"1000000000 "
+Working Directory:,"/home/sinkovit/profiling_tutorial/TimeBasedSampling"
+Environment Variables:
+CPU Details:,"Family(0x17), Model(0x31), Number of Cores(128)"
+Operating System:,"LinuxCentOS Linux 8 (Core)-64 Kernel:4.18.0-147.el8.x86_64"
+
+PROFILE DETAILS
+Profile Session Type:,"Time-based Sampling"
+Profile Scope:,"Single Application"
+CPU Mask:,"0-127"
+CPU Affinity Mask:,"0-127"
+Profile Start Time:,"Mar-05-2021_12-18-04"
+Profile End Time:,"Mar-05-2021_12-18-24"
+Profile Duration:,"20 seconds"
+Data Folder:,"/home/sinkovit/profiling_tutorial/TimeBasedSampling"
+Virtual Machine:,"No"
+Call Stack Sampling:,"False"
+
+Monitored Events:,Name,Interval
+,"Timer samples",1000 micro seconds
+
+"HOT FUNCTIONS (Sort Event - Timer samples)"
+FUNCTION,"Timer samples" (seconds)
+"MAIN__",14.1690
+"clear_page_rep",2.1930
+"__do_page_fault",0.5280
+"get_page_from_freelist",0.2800
+"_raw_spin_unlock_irqrestore",0.2240
+"free_unref_page_list",0.2020
+"__handle_mm_fault",0.1100
+"mem_cgroup_throttle_swaprate",0.0620
+"handle_mm_fault",0.0560
+"mem_cgroup_commit_charge",0.0500
+
+
+"HOT PROCESSES (Sort Event - Timer samples)"
+PROCESS,"Timer samples" (seconds)
+/home/sinkovit/profiling_tutorial/TimeBasedSampling/intro_inline (PID - 70949),18.5740
+
+Function Detail Data
+Function,File,Line,SourceCode,"Timer samples" (seconds)
+"MAIN__",,,,14.1690
+,/home/sinkovit/profiling_tutorial/TimeBasedSampling/intro.f,4,"f1 = sqrt(sqrt(x))/sqrt(y) + y/x",5.0690
+,,12,"f2 = sqrt(sqrt(x*y))/sqrt(y/x) + x/y",7.0880
+,,24,"do i=1,n",0.5200
+,,25,"c(i) = f1(a(i),b(i)) + f2(a(i),b(i))",0.5200
+,,37,"do i=1,n",0.3100
+,,38,"c(i) = f1(b(i),a(i))",0.2850
+,,59,"x(i) = i*1.1",0.2010
+,,60,"y(i) = i/3.3",0.1760
+
+Function,"Timer samples" (seconds)
+"clear_page_rep" (BINARY FILE NOT FOUND),2.1930
+
+Function,"Timer samples" (seconds)
+"__do_page_fault" (BINARY FILE NOT FOUND),0.5280
+
+Function,"Timer samples" (seconds)
+"get_page_from_freelist" (BINARY FILE NOT FOUND),0.2800
+
+Function,"Timer samples" (seconds)
+"_raw_spin_unlock_irqrestore" (BINARY FILE NOT FOUND),0.2240
+
+Function,"Timer samples" (seconds)
+"free_unref_page_list" (BINARY FILE NOT FOUND),0.2020
+
+Function,"Timer samples" (seconds)
+"__handle_mm_fault" (BINARY FILE NOT FOUND),0.1100
+
+Function,"Timer samples" (seconds)
+"mem_cgroup_throttle_swaprate" (BINARY FILE NOT FOUND),0.0620
+
+Function,"Timer samples" (seconds)
+"handle_mm_fault" (BINARY FILE NOT FOUND),0.0560
+
+Function,"Timer samples" (seconds)
+"mem_cgroup_commit_charge" (BINARY FILE NOT FOUND),0.0500
+

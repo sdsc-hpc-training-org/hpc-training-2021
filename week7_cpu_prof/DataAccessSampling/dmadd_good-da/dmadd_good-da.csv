@@ -1,0 +1,85 @@
+
+AMDuProf PROFILE REPORT
+
+EXECUTION
+Target Path:,"/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_good"
+Command Line Arguments:,"30000 "
+Working Directory:,"/home/sinkovit/profiling_tutorial/DataAccessSampling"
+Environment Variables:
+CPU Details:,"Family(0x17), Model(0x31), Number of Cores(128)"
+Operating System:,"LinuxCentOS Linux 8 (Core)-64 Kernel:4.18.0-147.el8.x86_64"
+
+PROFILE DETAILS
+Profile Session Type:,"Investigate Data Access"
+Profile Scope:,"Single Application"
+CPU Mask:,"0-127"
+CPU Affinity Mask:,"0-127"
+Profile Start Time:,"Mar-05-2021_12-14-34"
+Profile End Time:,"Mar-05-2021_12-14-38"
+Profile Duration:,"4 seconds"
+Data Folder:,"/home/sinkovit/profiling_tutorial/DataAccessSampling"
+Virtual Machine:,"No"
+Call Stack Sampling:,"False"
+
+Monitored Events:,Name,Interval,Unitmask,User,OS
+,"Misaligned loads (PMCx047)",25000,0,True,True
+,"Cycles not in Halt (PMCx076)",250000,0,True,True
+,"Retired Instructions (PMCx0C0)",250000,0,True,True
+,"LS MAB Allocates By Type (PMCx041)",25000,b,True,True
+,"Data Cache Refills from System (PMCx043)",25000,11,True,True
+,"L1 DTLB Misses (PMCx045)",25000,ff,True,True
+
+"HOT FUNCTIONS (Sort Event - CPU clocks)"
+FUNCTION,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"clear_page_rep",2793,17878,4427,5057,5907,46,0.1142,0.1334,0.2476,4.0384,0.0631,0.0010
+"MAIN__",11731,11870,12749,10740,2236,100,0.0842,0.0175,1.0741,0.9311,0.0920,0.0008
+"page_fault",96,1709,1960,207,237,8,0.0106,0.0121,1.1469,0.8719,0.0049,0.0004
+"get_page_from_freelist",430,1010,744,342,321,10,0.0460,0.0431,0.7366,1.3575,0.0578,0.0013
+"free_pcppages_bulk",0,422,1056,36,14,4,0.0034,0.0013,2.5024,0.3996,0.0000,0.0004
+"__list_del_entry_valid",170,369,443,106,119,2,0.0239,0.0269,1.2005,0.8330,0.0384,0.0005
+"__handle_mm_fault",37,350,261,74,120,2,0.0284,0.0460,0.7457,1.3410,0.0142,0.0008
+"sync_regs",9,322,340,42,56,0,0.0124,0.0165,1.0559,0.9471,0.0026,0.0000
+"mem_cgroup_throttle_swaprate",457,301,252,61,142,8,0.0242,0.0563,0.8372,1.1944,0.1813,0.0032
+"release_pages",0,298,626,73,39,3,0.0117,0.0062,2.1007,0.4760,0.0000,0.0005
+
+
+"HOT PROCESSES (Sort Event - CPU clocks)"
+PROCESS,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_good (PID - 70527),18231,39628,28528,17895,10381,239,0.0627,0.0364,0.7199,1.3891,0.0639,0.0008
+
+Function Detail Data
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"clear_page_rep" (BINARY FILE NOT FOUND),2793,17878,4427,5057,5907,46,0.114,0.133,0.248,4.038,0.063,0.001
+
+Function,File,Line,SourceCode,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"MAIN__",,,,11731,11870,12749,10740,2236,100,0.084,0.018,1.074,0.931,0.092,0.001
+,/home/sinkovit/profiling_tutorial/DataAccessSampling/dmadd_good.f,21,"do j=1,n",0,1,5,9,1,0,0.180,0.020,5.000,0.200,0.000,0.000
+,,23,"x(i,j) = i*1.1 + j*2.2",0,907,1733,1742,18,2,0.101,0.001,1.911,0.523,0.000,0.000
+,,24,"y(i,j) = i*3.3 + j*4.4",0,3192,5495,5523,44,1,0.101,0.001,1.721,0.581,0.000,0.000
+,,30,"do j=1,n",6,1,3,5,4,0,0.167,0.133,3.000,0.333,0.200,0.000
+,,32,"z(i,j) = x(i,j) + y(i,j)",11725,7769,5513,3461,2169,97,0.063,0.039,0.710,1.409,0.213,0.002
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"page_fault" (BINARY FILE NOT FOUND),96,1709,1960,207,237,8,0.011,0.012,1.147,0.872,0.005,0.000
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"get_page_from_freelist" (BINARY FILE NOT FOUND),430,1010,744,342,321,10,0.046,0.043,0.737,1.358,0.058,0.001
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"free_pcppages_bulk" (BINARY FILE NOT FOUND),0,422,1056,36,14,4,0.003,0.001,2.502,0.400,0.000,0.000
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"__list_del_entry_valid" (BINARY FILE NOT FOUND),170,369,443,106,119,2,0.024,0.027,1.201,0.833,0.038,0.000
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"__handle_mm_fault" (BINARY FILE NOT FOUND),37,350,261,74,120,2,0.028,0.046,0.746,1.341,0.014,0.001
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"sync_regs" (BINARY FILE NOT FOUND),9,322,340,42,56,0,0.012,0.016,1.056,0.947,0.003,0.000
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"mem_cgroup_throttle_swaprate" (BINARY FILE NOT FOUND),457,301,252,61,142,8,0.024,0.056,0.837,1.194,0.181,0.003
+
+Function,"Misalign access","CPU clocks","Retired Instructions","DC misses","DC refills L2/sys","L1 DTLB Misses","DC miss rate","DC refill rate","IPC","CPI","Misalign rate","DTLB L1M rate"
+"release_pages" (BINARY FILE NOT FOUND),0,298,626,73,39,3,0.012,0.006,2.101,0.476,0.000,0.000
+
