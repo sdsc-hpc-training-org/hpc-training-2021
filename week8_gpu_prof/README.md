@@ -2,9 +2,9 @@
 
 ###  WEEK 8: 03/12/2021
 
-## TOPIC: CPU Profiling, monitoring: gprof, mpiP/comms, uProf	
+## TOPIC: GPU Profiling: nvprof, Nsight Systems, Nsight Compute	
 
-**Presented By:** [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) (sinkovit  at  sdsc.edu)
+**Presented By:** [Mahidhar Tatineni]
 
 ## READING AND PRESENTATIONS:
 
