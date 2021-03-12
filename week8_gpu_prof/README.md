@@ -10,7 +10,7 @@
 
 * **Lecture slides:** [Week 7: TBD]()
 * **Video Recording:** [Week 6: Video TBD]
-* **Source Code/Examples:** [TBDs]()
+* **Source Code/Examples:** [CUDA SDK Examples on Expanse system]
 
 
 
