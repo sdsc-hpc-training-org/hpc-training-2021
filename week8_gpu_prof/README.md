@@ -40,8 +40,8 @@ export PATH=/cm/shared/examples/sdsc/nsight/v2020.5/bin:$PATH
 * ``nvprof`` documentation: [https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview)
 * Run simple profile commands using the matrixMul example from the CUDA examples
   * See Slides 4 - 5
-  * Profile the cukSolverSp_LinearSolver from Slide 7
-  * Use ``nvvp`` gui to visualize the ``nvprof`` results
+* Profile the cukSolverSp_LinearSolver from Slide 7
+* Use ``nvvp`` gui to visualize the ``nvprof`` results
 
 ### Task 2: Learning About Nsight Profiler
 * Nsight Systems Tutorial: [https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/](https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/) 
