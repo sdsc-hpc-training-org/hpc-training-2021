@@ -1,10 +1,10 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 8: 03/12/2021
+##  WEEK 8: 03/12/2021
 
-## TOPIC: GPU Profiling: nvprof, Nsight Systems, Nsight Compute	
+### TOPIC: GPU Profiling: nvprof, Nsight Systems, Nsight Compute	
 
-* Presented By: [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu)
+### Presented By: [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu)
 
 ## READING AND PRESENTATIONS:
 
@@ -14,15 +14,15 @@
 
 
 
-## WEEK 7 TASKS:
+## WEEK 8 TASKS:
 
-### Task 1: Setting up to run GPU code on Expanse:
+### Task 0: Setting up to run GPU code on Expanse:
 See lecture notes from Week3 which has instructions for [Working on the
 GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/README.md)
 * Be sure to download the CUDA example codes.
 
 
-### Task 2: Learning About NVIDIA *nvprof*
+### Task 1: Learning About NVIDIA *nvprof*
 * nvprof documentation: [https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview)
 * 
 * 
@@ -30,7 +30,7 @@ GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/mai
 • Openacc example
 
 
-### Task 3: Learning About Nsight Profiler
+### Task 2: Learning About Nsight Profiler
 * Nsight Systems Tutorial: [https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/](https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/) 
 * Using CUDA SDK and vector addition examples to illustrate offline GUI use
     * Using cuSolverSp_LinearSolver  from the CUDA Example files (see Task 1)
@@ -46,10 +46,11 @@ module load cuda10.2/toolkit
 export PATH=/cm/shared/examples/sdsc/nsight/v2020.5/bin:$PATH
 ```
     * Profile with cli and write to baseline report file:
+```
 nsys profile -t cuda,osrt -o baseline -w true ./cuSolverSp_LinearSolver
 ```
 
-### Task 4: Learning About Nsight Compute 
+### Task 3: Learning About Nsight Compute 
   * Read about [Nsight Compute: ](https://developer.nvidia.com/blog/analysis-driven-optimization-preparing-for-analysis-with-nvidia-nsight-compute-part-1/)
   * Note: urrently disabled on Expanse
 
