@@ -22,15 +22,16 @@ GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/mai
 * Be sure to download the CUDA example codes.
 
 
-### Task 2: Learning About nvprof
-Outline
-• Overview of options
-• Use CUDA SDK examples to illustrate profiling process • Import/export of profiles
+### Task 2: Learning About NVIDIA *nvprof*
+* nvprof documentation: [https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview)
+* 
+* 
+* • Use CUDA SDK examples to illustrate profiling process • Import/export of profiles
 • Openacc example
 
 
 ### Task 3: Learning About Nsight Profiler
-* [Nsight Systems:  ](https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/) 
+* Nsight Systems Tutorial: [https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/](https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/) 
 * Using CUDA SDK and vector addition examples to illustrate offline GUI use
     * Using cuSolverSp_LinearSolver  from the CUDA Example files (see Task 1)
 * Nsight Systems: Simple Profiling Example (STEPS):
@@ -43,6 +44,7 @@ srun --pty --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 -p gpu-shared -- gpu
 module reset
 module load cuda10.2/toolkit
 export PATH=/cm/shared/examples/sdsc/nsight/v2020.5/bin:$PATH
+```
     * Profile with cli and write to baseline report file:
 nsys profile -t cuda,osrt -o baseline -w true ./cuSolverSp_LinearSolver
 ```
