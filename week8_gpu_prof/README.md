@@ -4,7 +4,7 @@
 
 ## TOPIC: GPU Profiling: nvprof, Nsight Systems, Nsight Compute	
 
-**Presented By:** [Mahidhar Tatineni](https://developer.nvidia.com/blog/transitioning-nsight-systems-nvidia-visual-profiler-nvprof/)
+* Presented By: [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu)
 
 ## READING AND PRESENTATIONS:
 
