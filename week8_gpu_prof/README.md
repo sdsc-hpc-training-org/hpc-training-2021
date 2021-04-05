@@ -9,7 +9,7 @@
 ## READING AND PRESENTATIONS:
 
 * **Lecture slides:** [Week 8: Expanse GPU Profiling](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week8_gpu_prof/Expanse_GPU_Profiling_MTatineni.pdf)
-* **Video Recording:** [Week 6: Video TBD]
+* **Video Recording:** [Week 8: Video TBD]
 * **Source Code/Examples:** [CUDA SDK Examples on Expanse system]
 
 
