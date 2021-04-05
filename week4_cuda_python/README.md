@@ -2,7 +2,7 @@
 
 WEEK 4: 02/12/2021
 
-## TOPIC: CUDA Python: Introduction to Numba AND CuPy
+## TOPIC: CUDA Python: Introduction to Numba and CuPy
 
 * Presented By: [Mahidhar Tatineni, SDSC](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html)  (mahidhar at sdsc.edu)
 
