@@ -2,22 +2,29 @@
 
 ###  WEEK 10: 04/16/2021
 
-## TOPIC #1: Overview of Machine Learning Frameworks
+## TOPICS 
+### #1: Overview of Machine Learning Frameworks
 **Presented By:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mahidhar at  sdsc.edu)
 
+## READING AND PRESENTATIONS:
 
-## TOPIC #2: Introduction to Deep Learning
+* **Lecture slides:** [Week10: TBD]()
+* **Video Recording:** [Week10: Video TBD]
+* **Source Code/Examples:** [Week10: TBD]()
+
+
+### TOPIC #2: Introduction to Deep Learning
 **Presented By:** [Paul Rodriquez](https://www.linkedin.com/in/paul-rodriguez-76ba43158/) (prodriguez at sdsc.edu)
 
 ## READING AND PRESENTATIONS:
 
-* **Lecture slides:** [Week 7: TBD]()
-* **Video Recording:** [Week 6: Video TBD]
-* **Source Code/Examples:** [TBDs]()
+* **Lecture slides:** [Week10: TBD]()
+* **Video Recording:** [Week10: Video TBD]
+* **Source Code/Examples:** [Week10: TBD]()
 
 
 
-## WEEK 7 TASKS: Topic #1
+## WEEK 10 TASKS: Topic #1
 
 ### Task 1: 
 TBD
@@ -25,7 +32,7 @@ TBD
 ### Task 2:
 TBD
 
-## WEEK 7 TASKS: Topic #2
+## WEEK 10 TASKS: Topic #2
 
 ### Task 1: 
 TBD
