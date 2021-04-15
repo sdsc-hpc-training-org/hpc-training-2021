@@ -2,6 +2,14 @@
 
 ###  WEEK 10: 04/16/2021
 
+| DESCR. |TOPIC #1      | TOPIC #2 |
+| ----------- | ----------- |
+| **TITLE:** | Overview of Machine Learning Frameworks    | Introduction to Deep Learning |
+| **Presented By:**   | Mahi        | Paul
+| **Lecture Slides** | a | b |
+| **Video Recording** | a | b |
+| **TASKS** | a | b |
+
 ## TOPICS 
 ### #1: Overview of Machine Learning Frameworks
 **Presented By:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mahidhar at  sdsc.edu)
