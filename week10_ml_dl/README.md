@@ -1,10 +1,13 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 7: 03/05/2021
+###  WEEK 10: 04/16/2021
 
-## TOPIC: CPU Profiling, monitoring: gprof, mpiP/comms, uProf	
+## TOPIC #1: Overview of Machine Learning Frameworks
+**Presented By:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mahidhar at  sdsc.edu)
 
-**Presented By:** [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) (sinkovit  at  sdsc.edu)
+
+## TOPIC #2: Introduction to Deep Learning
+**Presented By:** [Paul Rodriquez](https://www.linkedin.com/in/paul-rodriguez-76ba43158/) (prodriguez at sdsc.edu)
 
 ## READING AND PRESENTATIONS:
 
@@ -14,7 +17,7 @@
 
 
 
-## WEEK 7 TASKS:
+## WEEK 7 TASKS: Topic #1
 
 ### Task 1: 
 TBD
@@ -22,8 +25,14 @@ TBD
 ### Task 2:
 TBD
 
-### Task 3: 
+## WEEK 7 TASKS: Topic #2
+
+### Task 1: 
 TBD
+
+### Task 2:
+TBD
+
 
 
 ### Note: Reporting your work:
