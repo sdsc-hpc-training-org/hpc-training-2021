@@ -3,7 +3,7 @@
 ###  WEEK 10: 04/16/2021
 
 | DESCR. |TOPIC #1      | TOPIC #2 |
-| ----------- | ----------- |
+| ----------- | ----------- |  ----------- |
 | **TITLE:** | Overview of Machine Learning Frameworks    | Introduction to Deep Learning |
 | **Presented By:**   | Mahi        | Paul
 | **Lecture Slides** | a | b |
