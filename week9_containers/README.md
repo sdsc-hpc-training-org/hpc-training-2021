@@ -1,20 +1,21 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 7: 03/05/2021
+###  WEEK 9: 03/05/2021
 
-## TOPIC: CPU Profiling, monitoring: gprof, mpiP/comms, uProf	
+## TOPIC: Containers for CPU and GPU Computing
 
-**Presented By:** [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) (sinkovit  at  sdsc.edu)
+**Presented By:** [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/) (mkandes at sdsc.edu)
+
+** Description:** This training session provides an introduction to running Singularity containers on Comet for users currently using Comet and those who want to know more about running Singularity on XSEDE’s Comet supercomputer. SDSC’s computational scientist Marty Kandes provides an in-depth review of the important issues pertaining to running Singularity in the Comet high-performance ecosystem and includes several useful container examples for you to explore following the webinar.
 
 ## READING AND PRESENTATIONS:
 
-* **Lecture slides:** [Week 7: TBD]()
-* **Video Recording:** [Week 6: Video TBD]
-* **Source Code/Examples:** [TBDs]()
+* **Lecture slides:** [Week 9: TBD]()
+* **Video Recording:** [Week 9: Video] (https://youtu.be/gJsnDX-UszE)
+* **Source Code/Examples:** [TBD]()
 
 
-
-## WEEK 7 TASKS:
+## WEEK 9 TASKS:
 
 ### Task 1: 
 TBD
