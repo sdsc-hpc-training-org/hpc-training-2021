@@ -7,8 +7,8 @@
 | **TITLE:** | Overview of Machine Learning Frameworks    | Introduction to Deep Learning |
 | **Presented By:**   | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) | [Paul Rodriquez](https://www.linkedin.com/in/paul-rodriguez-76ba43158/)
 | **Contac Info:** |  mahidhar at  sdsc.edu | prodriguez at sdsc.edu |
-| **Lecture Slides** | a | b |
-| **Video Recording** | a | b |
+| **Lecture Slides** | TBD | TBD |
+| **Video Recording** | TBD | TBD |
 | **TASKS** | [Tasks: Topic #1](#topic1) | [Tasks: Topic #2](#topic2) |
 
 
