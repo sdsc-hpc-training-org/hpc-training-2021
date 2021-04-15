@@ -5,34 +5,16 @@
 | DESCR. |TOPIC #1      | TOPIC #2 |
 | ----------- | ----------- |  ----------- |
 | **TITLE:** | Overview of Machine Learning Frameworks    | Introduction to Deep Learning |
-| **Presented By:**   | Mahi        | Paul
+| **Presented By:**   | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) | [Paul Rodriquez](https://www.linkedin.com/in/paul-rodriguez-76ba43158/)
+| **Contac Info:** |  mahidhar at  sdsc.edu | prodriguez at sdsc.edu |
 | **Lecture Slides** | a | b |
 | **Video Recording** | a | b |
-| **TASKS** | a | b |
-
-## TOPICS 
-### #1: Overview of Machine Learning Frameworks
-**Presented By:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mahidhar at  sdsc.edu)
-
-## READING AND PRESENTATIONS:
-
-* **Lecture slides:** [Week10: TBD]()
-* **Video Recording:** [Week10: Video TBD]
-* **Source Code/Examples:** [Week10: TBD]()
-
-
-### TOPIC #2: Introduction to Deep Learning
-**Presented By:** [Paul Rodriquez](https://www.linkedin.com/in/paul-rodriguez-76ba43158/) (prodriguez at sdsc.edu)
-
-## READING AND PRESENTATIONS:
-
-* **Lecture slides:** [Week10: TBD]()
-* **Video Recording:** [Week10: Video TBD]
-* **Source Code/Examples:** [Week10: TBD]()
+| **TASKS** | [Tasks: Topic #1](#topic1) | [Tasks: Topic #2](#topic2) |
 
 
 
-## WEEK 10 TASKS: Topic #1
+<hr>
+## <a name="topic1"></a>WEEK 10 TASKS: Topic #1
 
 ### Task 1: 
 TBD
@@ -40,7 +22,9 @@ TBD
 ### Task 2:
 TBD
 
-## WEEK 10 TASKS: Topic #2
+
+<hr>
+## <a name="topic2">WEEK 10 TASKS: Topic #2
 
 ### Task 1: 
 TBD
