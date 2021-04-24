@@ -1,6 +1,6 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 10: 04/16/2021
+###  WEEK 11: 04/16/2021
 
 | DESCR. |TOPIC #1      | TOPIC #2 |
 | ----------- | ----------- |  ----------- |
@@ -14,7 +14,7 @@
 
 
 <hr>
-## <a name="topic1"></a>WEEK 10 TASKS: Topic #1
+## <a name="topic1"></a>WEEK 11 TASKS: Topic #1
 
 ### Task 1: 
 TBD
@@ -24,7 +24,7 @@ TBD
 
 
 <hr>
-## <a name="topic2">WEEK 10 TASKS: Topic #2
+## <a name="topic2">WEEK 11 TASKS: Topic #2
 
 ### Task 1: 
 TBD
