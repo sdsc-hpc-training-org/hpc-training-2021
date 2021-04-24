@@ -1,0 +1,23 @@
+00:21:38	Jeff Sale:	Thanks for the reminder, Marco. Yes, the recording has begun now. Sorry about that.
+00:26:20	Mary Thomas:	Thanks Marco and Jeff
+00:33:09	Mary Thomas:	See:  https://hpc-training.sdsc.edu/notebooks-101/, which uses the “start-jupyter” script. Mahi’s examples use a new script called “galyleo”
+00:41:01	Mary Thomas:	SCC21 Student Team application form: https://na.eventscloud.com/ereg/newreg.php?eventid=613507&
+00:48:07	Mary Thomas:	brb
+00:49:26	Dario Meluzzi:	I can barely hear you
+00:52:49	Richa Karmakar:	Is it possible to reduce the speaker volume and increase the microphone volume....speaker volume creates background noise
+00:53:23	Jeff Sale:	I agree there is some noise when Paul speaks which seems to muffle his voice a bit. I’ve never heard anything like that before but I’m not sure there’s much that can be done. We appreciate your understanding.
+00:55:49	Joe Crowley:	With output at 0 Paul can’t hear us
+01:01:18	Joe Crowley:	When minimizing loss, how do we escape local minima?
+01:02:32	Lizhong Zhang:	Sorry, I can’t help laughing since Paul cannot hear.
+01:03:29	Mahidhar Tatineni:	Yes, we can hold the questions for the end.
+01:03:42	Jeff Sale:	Sorry, didn’t see that coming. LOL!
+01:03:55	Richa Karmakar:	Maybe raise hand...then Paul can see.
+01:16:47	Mary Thomas:	I am back
+01:17:14	Mary Thomas:	Enter questions in chat and if we cannot answer them, we will get Pauls attention.
+01:23:25	Lizhong Zhang:	Are these filters designed based on our needs to describe some features? Say a filter for tires or windows, etc.
+01:25:12	Lizhong Zhang:	I see. So this is why the algorithm is general. The features are fully learned from the training data.
+01:25:14	Lizhong Zhang:	Thanks
+01:31:02	Joe Crowley:	If you have two trained models, and the output of one produces input to the other, does the composed model need to be retrained?
+01:48:52	Richa Karmakar:	On what basis you choose this filter?Is it a trial and error process?
+01:51:22	Richa Karmakar:	Thanks
+01:58:28	Ryan Swanson:	Thank you!

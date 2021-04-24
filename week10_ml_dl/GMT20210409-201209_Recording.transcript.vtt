@@ -1,0 +1,2198 @@
+WEBVTT
+
+1
+00:00:01.770 --> 00:00:07.620
+Mary Thomas: I forgot to do that Okay, so now we're we're recording and so i'll talk about the.
+
+2
+00:00:10.050 --> 00:00:17.670
+Mary Thomas: SEC 21 and i've given you the updates, so the student cluster competition we talked about this in the first week.
+
+3
+00:00:18.660 --> 00:00:33.120
+Mary Thomas: This has been around since 2007 hundreds of students around the world compete the year i've done three now, and each time there's been 16 to 1819 teams.
+
+4
+00:00:33.540 --> 00:00:41.160
+Mary Thomas: The teams are limited to six students and on the active team, but you have mentors and teachers and faculty involved in.
+
+5
+00:00:41.550 --> 00:00:49.710
+Mary Thomas: For our programs, the ones I ran I always bring in an extra mentor so some more students can learn, but the six students.
+
+6
+00:00:50.490 --> 00:00:56.940
+Mary Thomas: come in, they they end up working in a tiny little 10 by 10 foot booth you have to cram the students.
+
+7
+00:00:57.360 --> 00:01:05.580
+Mary Thomas: The equipment, the Rack with your computer on it and you're on the floor out with hundred you know a few hundred other students it's quite exciting.
+
+8
+00:01:05.850 --> 00:01:17.340
+Mary Thomas: it's a competition that runs for 48 hours, when this was in person, the virtual one grand for several days and the rules were a little bit different but nonetheless it was very exciting to.
+
+9
+00:01:17.730 --> 00:01:24.990
+Mary Thomas: Get out there, and you see what the other teams are doing and you try and match what they're doing quite exciting and there's a.
+
+10
+00:01:25.470 --> 00:01:35.820
+Mary Thomas: The goals are to learn to operate and maintain a cluster it's one thing to use the cluster, but when you actually are in the same room with that rack of equipment running and you hear it.
+
+11
+00:01:36.360 --> 00:01:49.050
+Mary Thomas: Go to work when you're doing a real large scale computation you literally hear the fans turn on it, if you think your laptop makes noise, when you know, a rack of 10 nodes fires up it's just.
+
+12
+00:01:49.500 --> 00:01:58.290
+Mary Thomas: deafening and the breeze come from the fans it's quite exciting but also you learn to handle it when the system goes down you didn't learn to install the software.
+
+13
+00:01:58.770 --> 00:02:09.960
+Mary Thomas: and maintain the software and tune the hardware and the software, so they work better together, you learn to run a test science science applications and then there's this new.
+
+14
+00:02:10.980 --> 00:02:18.600
+Mary Thomas: program called the reproducibility challenge if you're in physics or any hard science biology wet lab work.
+
+15
+00:02:19.050 --> 00:02:29.190
+Mary Thomas: You have to be able to reproduce your results to within some important statistical variation if I put a paper out and i'm working in optical physics and I.
+
+16
+00:02:29.490 --> 00:02:35.220
+Mary Thomas: claim to see some behavior based on the laser light i'm using and the sample size i'm working on.
+
+17
+00:02:35.580 --> 00:02:45.420
+Mary Thomas: Somebody else better be able to reproduce that or I haven't given them enough information or i've made a mistake so reproducibility and sciences inset essential.
+
+18
+00:02:45.870 --> 00:03:00.150
+Mary Thomas: A few years ago, the student class the supercomputing community, so we don't have that in computer science and we don't have that in computational science, so they began this program called the reproducibility effort.
+
+19
+00:03:01.320 --> 00:03:13.890
+Mary Thomas: And it the The goal is over time to learn what does somebody need to put into the artifacts associated with the paper you're publishing in order for somebody else to reproduce your work.
+
+20
+00:03:15.030 --> 00:03:22.800
+Mary Thomas: You know there's seven ways to write a do loop, they should all get the same answer and there's many ways to do computational science.
+
+21
+00:03:23.400 --> 00:03:34.140
+Mary Thomas: And so, one of the artifacts that the material that you need to provide, in order for your work to be reproduced and starting in 2016 they started asking.
+
+22
+00:03:34.560 --> 00:03:44.640
+Mary Thomas: The students at the student cluster competition, one of the challenges is they give you a paper from the year before, and everybody has to try to reproduce.
+
+23
+00:03:45.120 --> 00:03:54.450
+Mary Thomas: The results of that paper on the hardware that that that they brought because computers are heterogeneous they're never all the same, and even if you build.
+
+24
+00:03:54.780 --> 00:04:02.310
+Mary Thomas: A system where you buy, all the same Intel processor every year that new version of that same Intel processor, will be a little bit different.
+
+25
+00:04:02.820 --> 00:04:10.170
+Mary Thomas: So things can affect outcomes and the goal is not to get the right answer in the sense of exactly what they got.
+
+26
+00:04:10.680 --> 00:04:18.630
+Mary Thomas: The question is to get close and if you got close how did you do that, and why, and if you couldn't get close to reproducing it.
+
+27
+00:04:19.020 --> 00:04:26.760
+Mary Thomas: What were the roadblocks and why you found this because the first year I went We actually had a system that didn't reproduce.
+
+28
+00:04:27.330 --> 00:04:42.270
+Mary Thomas: The right results and we figured out why and had to make a change to the system and we got close and we you know we ended up being part of a series of papers, published on that, so you might not be able to because your system is not a system where.
+
+29
+00:04:43.410 --> 00:04:56.070
+Mary Thomas: This the application performs well okay so it's a very exciting thing to be a part of and we've been selected this year to to contribute to the I Tripoli journal.
+
+30
+00:04:56.940 --> 00:05:06.630
+Mary Thomas: computing on this challenge and then there's something called the powder power outage in real life, the power can go out at any time, so what happens when.
+
+31
+00:05:07.110 --> 00:05:16.620
+Mary Thomas: The power goes out and you have to be able to restart your system rerun your code, if you need to know where you were in your code So these are all really interesting challenges.
+
+32
+00:05:17.460 --> 00:05:29.910
+Mary Thomas: And so today we'll talk about our plans to make a team to compete there's the six undergraduates we're going to be opening up the student team application.
+
+33
+00:05:31.020 --> 00:05:39.180
+Mary Thomas: Online application form and you need to think about the fact that if it's in person, and if we choose this year there might be an option.
+
+34
+00:05:39.570 --> 00:05:50.700
+Mary Thomas: To be virtual or in person, you would travel to this year at St Louis it moves around the country and everything's paid for, though, for you all travel and expenses are paid by.
+
+35
+00:05:51.180 --> 00:06:02.460
+Mary Thomas: The student closer competition committee and SEC we get vendors, to help that you don't have to pay for anything except maybe if you want some starbucks or your own.
+
+36
+00:06:03.600 --> 00:06:09.180
+Mary Thomas: lunch that we're not hosting and then um it does require significant level of commitment.
+
+37
+00:06:10.110 --> 00:06:22.800
+Mary Thomas: And this year i'm pleased to announce we're working with Brian chin in the CSC department and we'll be able to get 199 credit for the team, the core team, and also our.
+
+38
+00:06:23.700 --> 00:06:31.920
+Mary Thomas: Additional participants, that will be bringing in as alternates, so to speak, so it's a pretty interesting time.
+
+39
+00:06:32.820 --> 00:06:45.000
+Mary Thomas: So today i'm going to wrap this up real quick but i'll put this into the chat, this is the link to the registration form i'll show it to you in a second.
+
+40
+00:06:45.420 --> 00:06:59.970
+Mary Thomas: And we do have a timeline it's pretty tight now proposals for team are do may 3, and for that we need to figure out our hardware we're working on that already, we need to pick our team based on your applications.
+
+41
+00:07:00.510 --> 00:07:06.420
+Mary Thomas: And we need to get a section written about the team, and so the application deadline.
+
+42
+00:07:07.260 --> 00:07:24.750
+Mary Thomas: Is Friday April 23 it's a pretty simple application, but be sure to put in there, the information about you that about why you want to do it and and what you know that might apply even if it's not parallel computing you might know some things to help us do better.
+
+43
+00:07:26.010 --> 00:07:33.660
+Mary Thomas: Excuse me, and the application notification will let you know right away on on Tuesday and the 27th and then.
+
+44
+00:07:35.370 --> 00:07:39.840
+Mary Thomas: You have to tell us that you're gonna accept and participate it's not a trivial.
+
+45
+00:07:42.780 --> 00:07:51.690
+Mary Thomas: Decision, so we appreciate that some people might change their mind, and so we need to know by Friday April 30 in case we have to invite an alternate.
+
+46
+00:07:52.590 --> 00:08:02.820
+Mary Thomas: And then, a selected we start learning the programs and start studying hardware working with the supercomputing club, whether you get on the team or not you're welcome to join.
+
+47
+00:08:03.600 --> 00:08:15.450
+Mary Thomas: In the fun of learning about high performance computing Okay, so we had team super scheduler they placed fourth overall out of 19 teams from around the world.
+
+48
+00:08:15.990 --> 00:08:26.220
+Mary Thomas: that's pretty good so they've raised the bar pretty high folks let's see what we can do Jacob will talk to you about the team, I just wanted to go to this final.
+
+49
+00:08:27.030 --> 00:08:35.220
+Mary Thomas: dashboard of information, where, for the first time they had a graph on a dashboard and it's listed all of the teams.
+
+50
+00:08:35.550 --> 00:08:43.980
+Mary Thomas: And the different applications, like the reproducibility challenge and then some benchmarking challenges which I think you'll hear about today from the students.
+
+51
+00:08:44.520 --> 00:08:53.100
+Mary Thomas: And it shows, whether people got it done or not, and then over here, it does give the benchmarking numbers and that was really exciting there's nothing like No one.
+
+52
+00:08:53.370 --> 00:08:57.120
+Mary Thomas: who's the best has beaten me and what do I have to do to catch up with them.
+
+53
+00:08:57.630 --> 00:09:04.830
+Mary Thomas: And so, instead of being sort of like well we're not as good what I found was the team attitude was amazing they just said, well, we can do better than that.
+
+54
+00:09:05.280 --> 00:09:17.550
+Mary Thomas: And they will sit down and strategize so getting that feedback and seeing what the other teams are doing it's really a positive experience and adds to the fun and the excitement, especially when it's virtual so.
+
+55
+00:09:19.020 --> 00:09:38.670
+Mary Thomas: With that, we do have quite a few sponsors, some of them, you know, and some of them you don't, but these are the companies that either linda's hardware like amd and nvidia and or let us on their systems like Microsoft azure and Amazon web services are and then big.
+
+56
+00:09:39.870 --> 00:09:53.820
+Mary Thomas: Research organizations that fund the projects at CSC, and this is how SEC can afford to sponsor this activity with that if you have any questions feel free to ask me.
+
+57
+00:09:57.660 --> 00:10:03.870
+Mary Thomas: And if not there's a link in the chat but I don't know if it shows for everybody, so i'll repost it.
+
+58
+00:10:08.520 --> 00:10:15.540
+Mary Thomas: And Jacob it's i'll stop sharing and turn it over to you Oh, I was going to show you guys the.
+
+59
+00:10:17.040 --> 00:10:28.560
+Mary Thomas: This is the application there's a couple sections to it okay and self described, and I hope to hear from a lot of you soon thanks.
+
+60
+00:10:30.390 --> 00:10:31.620
+Mary Thomas: Jacob it's all yours.
+
+61
+00:10:32.100 --> 00:10:34.080
+Xiaochen Li: Okay, I have one uh.
+
+62
+00:10:34.380 --> 00:10:35.820
+Xiaochen Li: But Mary probably.
+
+63
+00:10:36.210 --> 00:10:41.580
+Xiaochen Li: joy, you want to go first because he got something to do at 145 okay here.
+
+64
+00:10:41.910 --> 00:10:42.960
+Mary Thomas: that's fine it's up to you.
+
+65
+00:10:42.960 --> 00:10:43.470
+yeah.
+
+66
+00:10:44.520 --> 00:10:45.900
+Mary Thomas: yeah i'm here okay.
+
+67
+00:10:46.620 --> 00:10:47.190
+Zhaoyi Li: Yes, hear me.
+
+68
+00:10:48.090 --> 00:10:55.230
+Zhaoyi Li: yeah okay so um i'll be talking about how to build a monitor on to monitor the.
+
+69
+00:10:56.310 --> 00:10:57.540
+Zhaoyi Li: Asia cycle cloud.
+
+70
+00:10:58.830 --> 00:11:00.240
+Zhaoyi Li: So yeah this one.
+
+71
+00:11:01.290 --> 00:11:11.490
+Zhaoyi Li: So, most of the time we can just use a foreigner to monitor the thing, but if we want to like maybe more personalized monitoring thing, and maybe we can have like.
+
+72
+00:11:12.240 --> 00:11:22.230
+Zhaoyi Li: A separate tracking one big machine, we can track each of the computer knows that's our machines We probably have to build our own personalized sponsor and.
+
+73
+00:11:22.830 --> 00:11:31.230
+Zhaoyi Li: it's pretty easy to actually build a monitoring photo cycle cloud because i'm so call has come in that can show every information on the machine, including.
+
+74
+00:11:32.700 --> 00:11:38.400
+Zhaoyi Li: The cost per time and including what machine, are we running out and including.
+
+75
+00:11:39.780 --> 00:11:52.440
+Zhaoyi Li: I think we also include the power attached to the machine and we include almost everything, so the best way to do it it's like we first rounder come in and.
+
+76
+00:11:53.310 --> 00:12:02.790
+Zhaoyi Li: We scraped all the important important data on the command, including something like the cost per time units and including.
+
+77
+00:12:03.600 --> 00:12:13.770
+Zhaoyi Li: One machine, as we run down and also including how many time i'll be running, all we can really simply compute a data around it.
+
+78
+00:12:14.610 --> 00:12:30.450
+Zhaoyi Li: So um so if we're scraping the data and then we can use a Java, a simple javascript to actually convert it to the two really good graph and then we can use the github website so actually hosted actually show us the website.
+
+79
+00:12:33.630 --> 00:12:35.130
+Mary Thomas: You need to share screen.
+
+80
+00:12:35.490 --> 00:12:36.720
+Zhaoyi Li: Yes, give me one second.
+
+81
+00:12:50.700 --> 00:12:51.780
+Zhaoyi Li: guys see my screen.
+
+82
+00:12:56.190 --> 00:12:57.060
+Zhaoyi Li: guys see my screen.
+
+83
+00:12:58.200 --> 00:12:58.680
+Mary Thomas: Yes.
+
+84
+00:12:59.070 --> 00:13:10.650
+Zhaoyi Li: Okay Okay, so, as you can see, you can see, the price per hours within one graphs and we can see the jobs that were running on because the Jacobs running the MAC CT and.
+
+85
+00:13:11.910 --> 00:13:18.360
+Zhaoyi Li: Someone is trying to grow Max and someone is running edge BCG and we can see the total cost over the time.
+
+86
+00:13:18.960 --> 00:13:33.330
+Zhaoyi Li: So we can better keep track of the thing, and this graph is simply just using a javascript which is yeah so we can see this graph as the result of the data we just scraping from the cycle cloud come in.
+
+87
+00:13:34.830 --> 00:13:35.100
+Zhaoyi Li: and
+
+88
+00:13:36.150 --> 00:13:52.230
+Zhaoyi Li: To better use of this this code, we can just hosted on a raspberry pi and then we can just use a crow tab to make it wrong every say five minutes or three minutes so as long as the machines, the so called machines running, we can see this graph.
+
+89
+00:13:54.210 --> 00:13:54.600
+Zhaoyi Li: yeah.
+
+90
+00:13:55.650 --> 00:13:56.790
+Zhaoyi Li: that's it Thank you.
+
+91
+00:14:03.000 --> 00:14:04.320
+Mary Thomas: So joey why.
+
+92
+00:14:04.350 --> 00:14:08.310
+Mary Thomas: Why was it important to develop that script.
+
+93
+00:14:10.050 --> 00:14:13.680
+Zhaoyi Li: Oh yes, so um so in the SEC competition.
+
+94
+00:14:15.810 --> 00:14:26.490
+Zhaoyi Li: We actually have a have a limit of the allocation I think in SEC 20 the allocation limit is $3,000 right correct.
+
+95
+00:14:27.840 --> 00:14:28.320
+Mary Thomas: Yes.
+
+96
+00:14:28.710 --> 00:14:31.200
+Zhaoyi Li: Yes, so i'm better.
+
+97
+00:14:32.730 --> 00:14:34.800
+Zhaoyi Li: arrange all the jobs that were around and.
+
+98
+00:14:36.000 --> 00:14:45.270
+Zhaoyi Li: All the prophets though around for better keep track of the cost, right now, so we don't run off out running out of the money before the competitions.
+
+99
+00:14:51.870 --> 00:14:55.140
+Mary Thomas: So um thanks joey so i'll share.
+
+100
+00:14:56.310 --> 00:15:04.140
+Mary Thomas: My screen for a moment before Jacob, I wanted to point out to folks that if you can see this, this is the.
+
+101
+00:15:05.130 --> 00:15:15.030
+Mary Thomas: The azure portal you log in and you manage thing resources and services and accounting in groups and stuff like that.
+
+102
+00:15:15.420 --> 00:15:29.820
+Mary Thomas: But for the student cluster competition we were invited to use this other tool called cycle cloud and on it, you can build in define your own virtual machines and there's a scripting client that goes to.
+
+103
+00:15:31.080 --> 00:15:43.170
+Mary Thomas: azure has a scripting client for all of their tools and services, so you can get on the command line and run things so um this one here shows that we're running Max appa dhaka's.
+
+104
+00:15:44.640 --> 00:15:58.050
+Mary Thomas: io 500 benchmark and it tells us when it started what's happening or our co our cores and nodes ramping up or not, and you get some messages and you can see, you know it's beginning to do some work.
+
+105
+00:15:58.590 --> 00:16:04.470
+Mary Thomas: The problem is that Amazon and azure they have these huge layton sees and telling you.
+
+106
+00:16:04.830 --> 00:16:14.940
+Mary Thomas: How much you've actually spent like you might find out three days later, and that happened to us one day we came to to work before the competition, and you know.
+
+107
+00:16:15.240 --> 00:16:31.500
+Mary Thomas: $1,000 had been spent, and we just didn't know that and so during the competition because we needed to know the budget literally minute by minute we started developing tools and one of them is the tool that joey show do we had another tool.
+
+108
+00:16:34.530 --> 00:16:45.420
+Mary Thomas: That we put together, where the one where to go there, you can see some i'm trying to find this right, we made our own spreadsheet so we could look at the hourly spend.
+
+109
+00:16:47.520 --> 00:17:05.220
+Mary Thomas: drew by each of the different applications because we'd have to know how as we ran out of money, how much work could we do and could we keep competing at higher and higher levels, it was very interesting way so joey came up with this idea for his particular.
+
+110
+00:17:08.160 --> 00:17:17.550
+Mary Thomas: script that could grab the information using command line as your client API so it's very clever okay so.
+
+111
+00:17:19.020 --> 00:17:22.020
+Mary Thomas: Jacob i'll turn it over to you again.
+
+112
+00:17:22.290 --> 00:17:31.470
+Xiaochen Li: Sure sure ah just give me a second, let me, let me first continue on talking little bit about the the monetary stuff because you can see.
+
+113
+00:17:33.900 --> 00:17:40.410
+Xiaochen Li: This application usage sheet is actually like a collection.
+
+114
+00:17:41.460 --> 00:17:42.300
+Xiaochen Li: of times.
+
+115
+00:17:44.190 --> 00:18:01.320
+Xiaochen Li: versus a machine we're using so basically when you want to start to run your application you manually felt in the the blocks, for example, I, for the first day if I want to run grow Max the gpu version at.
+
+116
+00:18:02.520 --> 00:18:04.200
+Xiaochen Li: sea at.
+
+117
+00:18:06.390 --> 00:18:06.690
+Like.
+
+118
+00:18:08.400 --> 00:18:16.320
+Xiaochen Li: That you all have to fill in the number of mission you're using and then the graph will change accordingly basically you'll see.
+
+119
+00:18:18.540 --> 00:18:31.440
+Xiaochen Li: Because there's another restriction the pub there's a public IP restriction IP restriction, so we can actually have more than can remember like seven machines working together, or will will be punished.
+
+120
+00:18:32.550 --> 00:18:34.830
+Xiaochen Li: for violating the rules so.
+
+121
+00:18:35.970 --> 00:18:41.850
+Xiaochen Li: Max with another colleague is very, very strict on us.
+
+122
+00:18:43.170 --> 00:18:49.530
+Xiaochen Li: yeah actually yeah so basically if he find us using a machine without offending the forum he's gonna be mad.
+
+123
+00:18:51.180 --> 00:18:52.860
+Xiaochen Li: yeah that's fine that's.
+
+124
+00:18:53.250 --> 00:18:54.060
+Mary Thomas: A good point yeah.
+
+125
+00:18:54.960 --> 00:18:56.850
+Xiaochen Li: yeah so let me.
+
+126
+00:18:56.940 --> 00:19:03.030
+Mary Thomas: And although this looks like it might be well as just the competition it's interesting to point out that.
+
+127
+00:19:04.260 --> 00:19:12.120
+Mary Thomas: How many different machines you don't you don't have one virtual machine that you set up and then run all your applications on it.
+
+128
+00:19:12.450 --> 00:19:21.330
+Mary Thomas: What the students chose to do was to create different virtual machines and different architectures of the virtual machines and different software installations.
+
+129
+00:19:21.660 --> 00:19:25.170
+Mary Thomas: of each of those virtual machines, if you go back up to the top Jacob.
+
+130
+00:19:25.920 --> 00:19:36.690
+Mary Thomas: There you go on application on the left, each one of those applications from lines two to 12 each one of those was a different virtual machine that the students learned how to build out.
+
+131
+00:19:37.230 --> 00:19:44.670
+Mary Thomas: And then use back to install the software is really highly developed and then tracking how much they cost and.
+
+132
+00:19:44.970 --> 00:19:53.580
+Mary Thomas: Somebody kind of forgetting to turn off the machine and it would cost more money, and this is real life, this is how it's really going to go for you when you're out there, working on the cloud.
+
+133
+00:19:54.090 --> 00:20:01.260
+Mary Thomas: cloud Sir promoted as well they're really straightforward, but they can be pretty complex okay thanks Jacob.
+
+134
+00:20:02.670 --> 00:20:04.050
+Xiaochen Li: miles or.
+
+135
+00:20:04.650 --> 00:20:05.310
+In.
+
+136
+00:20:07.530 --> 00:20:10.080
+Xiaochen Li: Light okay so.
+
+137
+00:20:11.130 --> 00:20:21.450
+Xiaochen Li: This is a slide we use for lightning talk during the competition and i've changed a little bit, so let me start by presenting it.
+
+138
+00:20:22.740 --> 00:20:26.130
+Xiaochen Li: So everyone can you see my screen.
+
+139
+00:20:29.940 --> 00:20:30.450
+Xiaochen Li: Can you see this.
+
+140
+00:20:31.110 --> 00:20:33.090
+Mary Thomas: Okay yeah I can see it, thank you.
+
+141
+00:20:33.660 --> 00:20:46.440
+Xiaochen Li: So basically i'm going to talk about a little bit about the competition itself and about 145 see how it's going to come in and talk about pro Max and then i'll probably talk more about metrics.
+
+142
+00:20:47.130 --> 00:20:52.740
+Xiaochen Li: So so before that i'll give you a brief introduction about the competition and an introduction about our team.
+
+143
+00:20:54.150 --> 00:20:54.990
+Xiaochen Li: And our needed.
+
+144
+00:20:56.370 --> 00:20:57.120
+Xiaochen Li: So who are we.
+
+145
+00:20:59.430 --> 00:21:12.840
+Xiaochen Li: i'm Jacob Lee and i'm currently a third year computer science major and math math minor and I, I was one of the co leader of the team and the most the the main job during competition was.
+
+146
+00:21:14.070 --> 00:21:16.350
+Xiaochen Li: was helping Max to.
+
+147
+00:21:18.570 --> 00:21:19.080
+Xiaochen Li: To.
+
+148
+00:21:20.130 --> 00:21:32.880
+Xiaochen Li: do some cloud administration stuff and also, I was a main person to handle the Mexico and other teammates were not here today, but i'll do introduction.
+
+149
+00:21:33.450 --> 00:21:56.490
+Xiaochen Li: So max's the other cody and he's the one who's in charge of the timesheet that the usage sheet I just mentioned, and he was working on the io 500 benchmark and he completed it in the first day, so all the benchmark people i'll i'll introduce them later we're doing the.
+
+150
+00:21:57.840 --> 00:22:04.500
+Xiaochen Li: Miss mystery application which we didn't know until the startup that competition called many Bytes.
+
+151
+00:22:05.610 --> 00:22:22.440
+Xiaochen Li: So let's keep going so our enough gupta he was in charge of htc G, which stands for high performance conjugate gradient, which is a, which is a bench by how introduce it later and.
+
+152
+00:22:23.580 --> 00:22:31.050
+Xiaochen Li: See see how come he's in charge off grown eggs and he is going to introduce chrome next in 15 minutes.
+
+153
+00:22:32.280 --> 00:22:55.200
+Xiaochen Li: homie pen he was in charge of the CSM, which is a model modeling system for modeling and prediction system for global weather and it's a very strong application, you can actually given enough time you can actually predict the weather offers hundred years later okay.
+
+154
+00:22:56.850 --> 00:23:12.150
+Xiaochen Li: See home, so he was in charge of hcl ha, the high performance impact benchmark and all of them, but see how won't be here today, but i'll do my best to cover some information about their application.
+
+155
+00:23:13.260 --> 00:23:13.830
+Xiaochen Li: and also my.
+
+156
+00:23:15.240 --> 00:23:21.240
+Xiaochen Li: So what is the job we are trying to do so before the competition we don't really have a clue.
+
+157
+00:23:22.470 --> 00:23:28.110
+Xiaochen Li: And after so basically we are going to build the most performing cluster.
+
+158
+00:23:29.370 --> 00:23:43.380
+Xiaochen Li: In azure which is called platform for seven different applications, so it turns out, building the most performance cluster was a $247 budget.
+
+159
+00:23:45.630 --> 00:23:54.390
+Xiaochen Li: It turns out that building one performant cluster it's not the best choice to do this because it's kind of cost a lot a lot when we turn it on.
+
+160
+00:23:55.320 --> 00:24:08.700
+Xiaochen Li: So we decided to make seven different seven customized cluster for each application so in this case, we can actually turn it down wise one of the application it's over.
+
+161
+00:24:10.620 --> 00:24:14.640
+Xiaochen Li: So these are the six known applications.
+
+162
+00:24:16.350 --> 00:24:33.360
+Xiaochen Li: I use or known because the seventh one mystery application we didn't know know it until the competition starts, so the first three the hdl the i'll fight Pinter hcg are the benchmarks and the benchmarks for hdl.
+
+163
+00:24:34.500 --> 00:24:38.220
+Xiaochen Li: We are actually solving a very dense matrix system and.
+
+164
+00:24:39.510 --> 00:24:44.340
+Xiaochen Li: it's quite computation balance so we really want some machine that is.
+
+165
+00:24:45.360 --> 00:24:51.510
+Xiaochen Li: Say really fast in communication and also compute a computation.
+
+166
+00:24:52.770 --> 00:24:54.810
+Xiaochen Li: And it's not taking a lot of memory.
+
+167
+00:24:56.340 --> 00:25:00.630
+Xiaochen Li: So we decide to use the HP one point series which is.
+
+168
+00:25:02.190 --> 00:25:05.520
+Xiaochen Li: The machine Western am the epic processor it's pretty fast.
+
+169
+00:25:07.350 --> 00:25:17.880
+Xiaochen Li: I believe the others, the other school who achieve higher scores here's all their users using gpus and we found we realized, there was a better.
+
+170
+00:25:18.450 --> 00:25:27.390
+Xiaochen Li: That was better twice after after the competition and for i'll find budget it's a benchmark tests out the throughput and latency off your file system.
+
+171
+00:25:28.440 --> 00:25:37.980
+Xiaochen Li: Basically, you can choose some Open Source process and, for example, we use the gfs but we send for big file system.
+
+172
+00:25:39.000 --> 00:25:52.380
+Xiaochen Li: And we did pretty good on, I hope, I find it, but there are other schools, we use some not open source software, it probably from their their.
+
+173
+00:25:52.920 --> 00:26:10.140
+Xiaochen Li: Their lab or some other company who sponsored them and achieve amazingly high score, for example, I believe our score on HP on io 500 was 16 and seeing why university from China, they achieve the score off sure hundred so basically a.
+
+174
+00:26:12.090 --> 00:26:20.340
+Xiaochen Li: lot more higher than us and for HP CG which stands for high performance conjugate gradient it's us it's a similar tasks.
+
+175
+00:26:21.630 --> 00:26:32.130
+Xiaochen Li: Compared to hdl but the differences HBO is solving a dense matrix system, while hcg it's a more sparse matrix multiplication system so.
+
+176
+00:26:33.270 --> 00:26:43.260
+Xiaochen Li: A very of potential problem is that it's actually taking more space than you think, because there are a lot of theory interest in the matrix so.
+
+177
+00:26:45.210 --> 00:26:50.430
+Xiaochen Li: Besides the computation you also need to set up set up other.
+
+178
+00:26:51.720 --> 00:26:57.780
+Xiaochen Li: Other configuration that helps this sparse matrix modification.
+
+179
+00:26:59.670 --> 00:27:14.700
+Xiaochen Li: Like help to speed up the process and I actually covered those strategies and when I was when i'm when i'm talking about Mexico because Mexico is also solving a sparse matrix multiplication system and we'll we'll see how we solve it.
+
+180
+00:27:15.900 --> 00:27:25.830
+Xiaochen Li: Okay let's talk about our cloud setup so basically, you can see that we are using a cloud platform called cycle.
+
+181
+00:27:27.030 --> 00:27:34.140
+Xiaochen Li: And the cycle cloud process as a separate cloud platform allows us to create whatever.
+
+182
+00:27:35.340 --> 00:27:45.780
+Xiaochen Li: machine, we want virtual machine, we want so basically our setup is like this is our initial salt, we have a admin old or the locking know.
+
+183
+00:27:46.230 --> 00:27:56.520
+Xiaochen Li: If you're familiar with comment or expense, you know that there were compute node and locking so we call it admin know we are, we have a very cheap machine.
+
+184
+00:27:58.140 --> 00:28:12.270
+Xiaochen Li: On the admin know whistler build and the gfs hat so for for the compute node part, we have a mid 40s 40 RS, which is the.
+
+185
+00:28:13.590 --> 00:28:24.150
+Xiaochen Li: GP gpu gpu notes and it'd be 120 ours are the cpu notes so it's similar to experience or comments like compute and compute gpu.
+
+186
+00:28:25.200 --> 00:28:32.820
+Xiaochen Li: And all these nodes are connected through infinite band Member and for ios benchmark.
+
+187
+00:28:34.260 --> 00:28:47.310
+Xiaochen Li: Like it's so we have a we have a different setup for for all computer though they're also connected with the gfs but we realized that it is not.
+
+188
+00:28:48.990 --> 00:29:02.010
+Xiaochen Li: it's not easy to have like seven very different setup script prepared for seven different application so we choose another unified approach, which is.
+
+189
+00:29:03.300 --> 00:29:10.980
+Xiaochen Li: We have the same admin mode, but for the computer know we either have gpu notes or cpu notes, because we don't really need both.
+
+190
+00:29:11.460 --> 00:29:22.410
+Xiaochen Li: At the same time when we are running different versions of code, for example, for girl Max or code we don't really need the cpu at the same time, so we can actually have a have a gpu only cluster.
+
+191
+00:29:23.460 --> 00:29:41.370
+Xiaochen Li: And we can turn the cpu one down once we're not using it once we're running the gpu on Okay, and every single nodes inside the compute node portion are connected with been a band and weapon with the gfs.
+
+192
+00:29:43.080 --> 00:29:50.910
+Xiaochen Li: So, so far as cpu instance i've been i've been calling it HP 120 RS a it's a.
+
+193
+00:29:52.290 --> 00:30:07.590
+Xiaochen Li: it's like stands for, I can't remember but 120 stands for the 128 cpus so if you're familiar with, and the epic structure epic processor, a very strange thing is.
+
+194
+00:30:09.300 --> 00:30:24.270
+Xiaochen Li: I think process it got 64 cpus or six foot course, but our machine there's only 60 cpus The reason for that is the azure the second cloud organization hope back the other four.
+
+195
+00:30:25.500 --> 00:30:28.410
+Xiaochen Li: So that they have a better control or.
+
+196
+00:30:29.430 --> 00:30:43.320
+Xiaochen Li: They can I i'm not exactly sure, but they probably go back that for for security reasons, and so, in total, we have 60 plus 16 that's 120 course and.
+
+197
+00:30:45.450 --> 00:30:55.410
+Xiaochen Li: The reason we choose, it is that it has a very big big Ram 480 gigabytes and there's some gpu and interconnect can be.
+
+198
+00:30:57.150 --> 00:31:05.520
+Xiaochen Li: Connected with infinite band, and the industrious and a decent cause for the gpu instance.
+
+199
+00:31:10.980 --> 00:31:20.250
+Xiaochen Li: yeah for the gpu instance we choose that empty series, not necessarily in the 40s it's ND 46 extremely.
+
+200
+00:31:21.600 --> 00:31:25.440
+Xiaochen Li: expensive for one machine which have.
+
+201
+00:31:26.490 --> 00:31:48.750
+Xiaochen Li: I can remember, like, for it for six or eight years, oh yeah we use the cost like $26 so we probably use the indie 24 and there's actually a limit on indie 40 series, because a lot of other schools were trying to use all their budget on on benchmark by using Andrew 45 1040.
+
+202
+00:31:49.980 --> 00:31:52.440
+Xiaochen Li: But that's not that's not a lot condition.
+
+203
+00:31:54.030 --> 00:31:56.220
+Xiaochen Li: And yeah you can see, it was a.
+
+204
+00:31:57.930 --> 00:31:59.760
+Xiaochen Li: tesla be 100 gpu.
+
+205
+00:32:01.200 --> 00:32:11.580
+Xiaochen Li: And the software tools we use are are going to be introduced, so we use psycho cloud templates this is, for the very.
+
+206
+00:32:12.780 --> 00:32:15.090
+Xiaochen Li: primitive primitive setup for the cluster.
+
+207
+00:32:16.530 --> 00:32:31.890
+Xiaochen Li: As you can see, we basically have the slurry setup and the bgp so So you can see the slur auto scale is true we were basically setting up a slur and we are excited setting up the BG BG fs head.
+
+208
+00:32:33.000 --> 00:32:34.890
+Xiaochen Li: So all of these called templates.
+
+209
+00:32:36.390 --> 00:32:53.040
+Xiaochen Li: or done by Max apodaca he he's very good at this without him, we are not going to do this easily and chef recipe as as more like your bash RC in your.
+
+210
+00:32:53.970 --> 00:33:07.740
+Xiaochen Li: In your server so it's a chef recipe is so very it's also it's The next step after executing the cloud psycho clock template as far initially as a PDF as.
+
+211
+00:33:09.930 --> 00:33:13.680
+Xiaochen Li: And we for some application for example CSM we use back.
+
+212
+00:33:14.790 --> 00:33:26.160
+Xiaochen Li: Because back, for example, if you want to install a compiler let's say GCC you can do this back install GCC and spec well result every.
+
+213
+00:33:28.080 --> 00:33:43.530
+Xiaochen Li: spec will resolve every conflict or dependencies that's on your computer and it can it can build whatever you want for for your computer and the the other very good reason we use back is that.
+
+214
+00:33:44.970 --> 00:33:55.050
+Xiaochen Li: In the very earlier stage where we are training it train we're doing training on comment, we don't really have the Su right the super user right to.
+
+215
+00:33:56.160 --> 00:34:08.760
+Xiaochen Li: change a lot of binary files, but spec actually create a docker like environment every time, if you want to use or your own environment, you can do us back load the application something like that.
+
+216
+00:34:10.380 --> 00:34:11.610
+Xiaochen Li: and see.
+
+217
+00:34:13.620 --> 00:34:22.290
+Xiaochen Li: ya so for application i'm not going to talk about the next EP yeah because I believe see how is.
+
+218
+00:34:25.260 --> 00:34:27.000
+Xiaochen Li: It, how can you hear me.
+
+219
+00:34:27.150 --> 00:34:28.020
+Zihao Kong - Tutor: Yes, i'm here.
+
+220
+00:34:28.260 --> 00:34:35.910
+Xiaochen Li: Okay, great so i'll hand it to you, and once you're down i'll keep talking about mimics okay.
+
+221
+00:34:36.060 --> 00:34:39.480
+Zihao Kong - Tutor: Do you have some slides from your I would just talk about stuff.
+
+222
+00:34:40.710 --> 00:34:44.040
+Xiaochen Li: Like use my lights, but it's not a ladder.
+
+223
+00:34:45.870 --> 00:34:59.400
+Zihao Kong - Tutor: yeah it's okay so so uh you know, during the competition every one of our teammates get assigned to one specific applications or benchmark for you know to to do so, I was, I was the one that.
+
+224
+00:34:59.850 --> 00:35:11.280
+Zihao Kong - Tutor: Does this girl Max challenge, so the way I did it was that I, you know, during a trip out like before the competition I I know this and you know I know i'm going to use your Max through.
+
+225
+00:35:11.310 --> 00:35:19.020
+Zihao Kong - Tutor: To the comments, so I just sort of practice installing this with a bunch of dependency, so that takes me like.
+
+226
+00:35:20.100 --> 00:35:34.560
+Zihao Kong - Tutor: I think it's like three weeks to figure out what's data stuff what is the best installation like process on our amd ethic machine so, for example, if you want to install grow matters, there are a lot of options, you can.
+
+227
+00:35:35.580 --> 00:35:41.640
+Zihao Kong - Tutor: For some computer and for some cpu it has some several instruction set, for example, a VX to a VX.
+
+228
+00:35:43.980 --> 00:35:57.780
+Zihao Kong - Tutor: fall, so there are some options that you can toggle you know if we if you got like a processor, which only has a VX 256 then in order to install Max need to turn that flag apply for our machine which has.
+
+229
+00:35:58.440 --> 00:36:05.880
+Zihao Kong - Tutor: A VX five tall I turned that optional, and then there are also some dependence on that libraries, for example, fast fourier transform libraries.
+
+230
+00:36:06.240 --> 00:36:16.530
+Zihao Kong - Tutor: And also, there are certain compiler constraints for installing girl Max as well, so actually figuring out what's the best way actually do our gpu support as well, so.
+
+231
+00:36:17.010 --> 00:36:29.580
+Zihao Kong - Tutor: figuring out how to install grow Max that best fits our system, three weeks of practice is actually not practice like figuring things out just and after I installed this correctly.
+
+232
+00:36:30.660 --> 00:36:34.260
+Zihao Kong - Tutor: You know it's do during the training process during the preparing for competition.
+
+233
+00:36:34.650 --> 00:36:46.770
+Zihao Kong - Tutor: I just run some of the benchmarks using grove access like I downloaded some benchmark ally, for example, like some molecule files that I want to you know, use the score Max for so.
+
+234
+00:36:47.130 --> 00:37:01.350
+Zihao Kong - Tutor: I the girl Max will give you a sort of like a performance report, for example, how long does it going to take to for you to run this benchmark the shorter is better so during the last few weeks of the.
+
+235
+00:37:01.860 --> 00:37:09.540
+Zihao Kong - Tutor: Training process, I was just trying are using one like one benchmark, how do I get is faster I need to sort of.
+
+236
+00:37:10.170 --> 00:37:18.780
+Zihao Kong - Tutor: figuring out what is the performance bottleneck for one specific or you know one specific benchmark for example for NASA pursuit benchmark.
+
+237
+00:37:19.290 --> 00:37:27.450
+Zihao Kong - Tutor: One of the forces calculation takes 50% of the time, so if that forces can be you know if that kind of computation can happen i'm cpu.
+
+238
+00:37:27.930 --> 00:37:36.900
+Zihao Kong - Tutor: Then I can sort of offload that using some of the special you know special command in the girl Max so during the last like two or three weeks.
+
+239
+00:37:37.260 --> 00:37:41.670
+Zihao Kong - Tutor: I was freaking this how and then also preparing for competition, because during the competition.
+
+240
+00:37:42.570 --> 00:37:51.750
+Zihao Kong - Tutor: All of the input files and all of the experiment that I was going to run our own know so he orders you like best prepare for the competition I just going to.
+
+241
+00:37:52.260 --> 00:38:01.110
+Zihao Kong - Tutor: Do like all these sort of simulate what i'm going to get all the competition by myself, so you know, in that way, I saw prepare what I.
+
+242
+00:38:01.410 --> 00:38:06.660
+Zihao Kong - Tutor: Like if if the company is and asked me to do a and I already prepared to it like I already like.
+
+243
+00:38:07.230 --> 00:38:14.910
+Zihao Kong - Tutor: figure out how to do a by myself in my training time then i'm going to save a lot of time during the competition so that's sort of how I.
+
+244
+00:38:15.390 --> 00:38:24.240
+Zihao Kong - Tutor: Prepare and and how did I use like a like a sense that sort of the experiences of how did I prepare for the competition and how did I.
+
+245
+00:38:25.080 --> 00:38:35.790
+Zihao Kong - Tutor: You know perform, on the condition, and the result is actually my you know my disability for the specific application for relax My point is like the overall number two.
+
+246
+00:38:36.210 --> 00:38:47.040
+Zihao Kong - Tutor: across all the different teams, so I think I was kind of you know, I still feel kind of good about it because I did a ton of time preparing this and I got a good, you know I got a good scores.
+
+247
+00:38:47.940 --> 00:38:55.650
+Zihao Kong - Tutor: yeah so I was gonna I was able to contribute to the point to our you know overall score scores up by a lot.
+
+248
+00:38:56.820 --> 00:38:59.250
+Mary Thomas: She, how can you talk about.
+
+249
+00:39:00.600 --> 00:39:05.340
+Mary Thomas: How the real use cases that they gave you during the competition.
+
+250
+00:39:05.700 --> 00:39:06.330
+Zihao Kong - Tutor: Oh okay i'm.
+
+251
+00:39:06.360 --> 00:39:13.080
+Mary Thomas: Challenging those were and and also how did it feel to wonder, am I doing good enough when it was so hard to finish a run.
+
+252
+00:39:13.710 --> 00:39:18.810
+Zihao Kong - Tutor: yeah I think the real use case a stylish I think the yeah.
+
+253
+00:39:20.010 --> 00:39:25.740
+Zihao Kong - Tutor: The competition committee gives gives us a sort of a bunch of.
+
+254
+00:39:27.090 --> 00:39:31.620
+Zihao Kong - Tutor: proteins related to like common it I don't really know like you know that.
+
+255
+00:39:32.550 --> 00:39:39.990
+Zihao Kong - Tutor: The chemistry or biology behind this, but I will just given a bunch of different proteins and then the girl last can.
+
+256
+00:39:40.410 --> 00:39:46.500
+Zihao Kong - Tutor: do some simulation with this protein, for example, put this protein in some solvent and then.
+
+257
+00:39:46.980 --> 00:39:55.170
+Zihao Kong - Tutor: sort of inspect how they will interact with the molecule that is around you know that's in a solid and then calculate some forces like.
+
+258
+00:39:55.470 --> 00:40:02.940
+Zihao Kong - Tutor: Maybe em forces and some other stuff that meeting you on a computer science major so I don't really know, but I was just following.
+
+259
+00:40:03.630 --> 00:40:13.200
+Zihao Kong - Tutor: I was given a very detailed experiment to run on the school X, I think that experiment is you, for every applicant, I mean for every candidate.
+
+260
+00:40:13.500 --> 00:40:21.750
+Zihao Kong - Tutor: You need to figure out what does the term needs, because the experiment is quite domain specific, so I need to know you know what does the.
+
+261
+00:40:22.200 --> 00:40:29.820
+Zihao Kong - Tutor: Baba Baba force me what is that calculate X a bubble energy or potential energy, what does that mean so.
+
+262
+00:40:30.420 --> 00:40:42.480
+Zihao Kong - Tutor: That was really kind of challenging because, during my training process, I only download benchmark data rather benchmark data I wasn't really prepared for like those scientific terms and scientific you know lab reports.
+
+263
+00:40:42.870 --> 00:40:55.140
+Zihao Kong - Tutor: So that one took me a lot of time and then also the experiment that the Community gives us takes a lot of a lot of times like one maybe one protein file, you need to run like.
+
+264
+00:40:55.530 --> 00:41:05.520
+Zihao Kong - Tutor: 30 minutes in order to get the result, and then, in order for that data to be consistent, you need to take multiple trials, like in in taking multiple rounds, for the same for the same.
+
+265
+00:41:06.510 --> 00:41:19.200
+Zihao Kong - Tutor: For the same protein so that means, if I have four proteins and each protein I need to take five different samples and going to get 20 different routes and each takes like 20 or 30 minutes, so that is like a lot of.
+
+266
+00:41:19.740 --> 00:41:26.370
+Zihao Kong - Tutor: Like a lot of missing times so i'm still remember during the last few days, I think, during the last day of the competition.
+
+267
+00:41:27.060 --> 00:41:32.100
+Zihao Kong - Tutor: Since we're sort of running like we decided to run all other application first and then.
+
+268
+00:41:32.670 --> 00:41:52.170
+Zihao Kong - Tutor: See how many how much money we left so for them, we left $500 and then i'm going to use this $500 to get as much as possible so that that gives us totally more points that's sort of our strategy, but in general, this hour like you know the skull Max experiment takes a big amount of time.
+
+269
+00:41:54.690 --> 00:42:07.680
+Xiaochen Li: yeah and actually before this condition, nobody of us know any of the chemistry and biology and all this this program the only software, given our this grow MAC supergirl and.
+
+270
+00:42:08.820 --> 00:42:11.040
+Xiaochen Li: Like, for example, let's go to the first one.
+
+271
+00:42:12.180 --> 00:42:16.920
+Xiaochen Li: Can you all see my screen this protein shapes up here.
+
+272
+00:42:17.460 --> 00:42:18.480
+Mary Thomas: Yes, okay.
+
+273
+00:42:18.720 --> 00:42:22.890
+Xiaochen Li: yeah basically we follow this tutorial and you'll see there are a lot of.
+
+274
+00:42:23.910 --> 00:42:25.950
+Xiaochen Li: The first time you have to have a like.
+
+275
+00:42:28.770 --> 00:42:31.050
+Xiaochen Li: It first show you how to set up it but.
+
+276
+00:42:32.220 --> 00:42:40.380
+Xiaochen Li: Starting from the next page you're basically you need to do some analysis on this, proteins and you have to note how different like.
+
+277
+00:42:42.600 --> 00:42:52.830
+Xiaochen Li: acronym stands for what whatever like words, for example, the NRA is that Adam number and you sometimes a in the in the.
+
+278
+00:42:54.270 --> 00:43:00.360
+Xiaochen Li: I think the question she they're using this acronym So if you don't really understand this, you don't.
+
+279
+00:43:00.900 --> 00:43:03.810
+Zihao Kong - Tutor: understand whether present problem also very challenging because.
+
+280
+00:43:03.870 --> 00:43:06.420
+Xiaochen Li: Again, the problem is super challenging it's.
+
+281
+00:43:06.450 --> 00:43:09.810
+Zihao Kong - Tutor: Very domain specific it's not really meant to.
+
+282
+00:43:10.500 --> 00:43:23.850
+Xiaochen Li: yeah it's basically like putting this this protein into the into the soul, when I look at different kind of solving and take out the crystallized what are and whatever whatever if you don't really understand this.
+
+283
+00:43:24.300 --> 00:43:31.350
+Xiaochen Li: you'll find it's super hard to even start so yeah I can I can remember it's super hard.
+
+284
+00:43:33.180 --> 00:43:33.900
+Xiaochen Li: But it's fine.
+
+285
+00:43:35.580 --> 00:43:37.740
+Xiaochen Li: let's go back oh yeah Thank you see how.
+
+286
+00:43:38.040 --> 00:43:38.730
+Zihao Kong - Tutor: yeah no problem.
+
+287
+00:43:38.970 --> 00:43:40.680
+Xiaochen Li: Is that all you want to talk about.
+
+288
+00:43:41.640 --> 00:43:41.880
+Xiaochen Li: sure.
+
+289
+00:43:42.390 --> 00:43:44.790
+Xiaochen Li: So let's go back to mimic si te.
+
+290
+00:43:47.970 --> 00:43:58.500
+Xiaochen Li: All right, so my next et does anybody kind of question Tom for now, if not i'll just go go go to remix.
+
+291
+00:44:02.160 --> 00:44:09.510
+Xiaochen Li: Okay assume there's no no problem let's go to the next city CT so.
+
+292
+00:44:10.740 --> 00:44:29.460
+Xiaochen Li: Unlike other applications that make CDs thought scored based on your performance is more as Mary said it's more about how you reproduce a experiment and how you explained the result, why is it the same, why does it differ so.
+
+293
+00:44:30.720 --> 00:44:31.080
+Xiaochen Li: But.
+
+294
+00:44:33.180 --> 00:44:45.630
+Xiaochen Li: But the most important stuff for for reproducing a applications first to understand their what they're doing and what their algorithms are are talking about.
+
+295
+00:44:46.740 --> 00:45:00.480
+Xiaochen Li: So let's see for mimics at you, you basically have a law have a diagram called a sign of Greg so on the car, you can see the Sino Graham.
+
+296
+00:45:01.080 --> 00:45:15.960
+Xiaochen Li: Is a diagram that you don't really understand what's going on inside it's a it is collected by using this setup so in the middle is whatever, for example in this one, I assume it's a brain.
+
+297
+00:45:17.220 --> 00:45:23.040
+Xiaochen Li: it's a it's a part of the mouse brain so would you do with you have an x Ray source.
+
+298
+00:45:24.390 --> 00:45:25.410
+Xiaochen Li: You should source.
+
+299
+00:45:26.580 --> 00:45:34.980
+Xiaochen Li: Through the mouse brain and using this detector to catch the projection and while the same time, so you are in the middle.
+
+300
+00:45:36.060 --> 00:45:44.550
+Xiaochen Li: The Middle part is going to rotate by so so that you are detectors actually going to collect a set of images.
+
+301
+00:45:45.630 --> 00:45:50.880
+Xiaochen Li: and putting them together you got this diagram call Center, so this is basically.
+
+302
+00:45:52.710 --> 00:46:08.940
+Xiaochen Li: projections from 360 degrees all put together, and you have no idea what is inside and what's going on here, so what we really need is the spinal trauma Graham it's going to it's more like the brain.
+
+303
+00:46:10.050 --> 00:46:18.930
+Xiaochen Li: it's a cut of brain right and maybe doctors or experts will know what's happening or what disease this this.
+
+304
+00:46:20.640 --> 00:46:33.570
+Xiaochen Li: mouse got so what we really need to do for this next eds go through this iterative reconstruction so basically you are still solving a linear system of equation and you're looking for the best.
+
+305
+00:46:34.860 --> 00:46:57.180
+Xiaochen Li: best represent patient off the Sino Graham by doing a greeting he said so a traditional you, we are doing this iterative reconstruction one step up by Wednesday, so you all your realize that for each stab you probably will go through some matrix inversion and a lot of.
+
+306
+00:46:58.470 --> 00:47:08.400
+Xiaochen Li: A lot of computation but for let's say, for the first time you do a lot of immersion right a second same state SAP you're still going to do the same matrix immersion.
+
+307
+00:47:08.910 --> 00:47:29.760
+Xiaochen Li: But you will not need the result from the first one so basically you are actually putting this job so computationally very heavy work so each step you're only doing whatever the stab required, but men next EP its full name is memory centric.
+
+308
+00:47:30.780 --> 00:47:48.270
+Xiaochen Li: X Ray computed tomography so it's called memory Center, meaning that we're converting this computationally very heavy process into a memory having process, but this so called memory heavy process can be resolved or.
+
+309
+00:47:49.320 --> 00:47:59.370
+Xiaochen Li: can be resolved by adding more compute node, as we have supercomputer so basically we are using supercomputers to solve a CT reconstruction problem.
+
+310
+00:48:00.540 --> 00:48:03.360
+Xiaochen Li: Okay, actually, I wanted to show you.
+
+311
+00:48:05.820 --> 00:48:09.840
+Xiaochen Li: yeah let's talk about this hilbert curve so.
+
+312
+00:48:11.400 --> 00:48:13.680
+Xiaochen Li: As you can see this.
+
+313
+00:48:14.880 --> 00:48:21.090
+Xiaochen Li: Let me, let me use the original diagram because this one, I feel like it yeah.
+
+314
+00:48:22.170 --> 00:48:24.180
+Xiaochen Li: So let's go to the.
+
+315
+00:48:26.400 --> 00:48:33.270
+Xiaochen Li: yeah so as you can see, this diagram here, it shows the reading pattern.
+
+316
+00:48:34.530 --> 00:48:40.710
+Xiaochen Li: Of the Sino grand and tama grand footprint so basically assume this is your image your.
+
+317
+00:48:41.790 --> 00:48:42.510
+Xiaochen Li: To read.
+
+318
+00:48:43.800 --> 00:48:50.760
+Xiaochen Li: As you can see that we are collecting the data from real patient right, so we are not actually going through a very.
+
+319
+00:48:51.870 --> 00:49:02.130
+Xiaochen Li: Regular reading pattern like one by one, as you access and erase you basically you all read through this image by this curve footprint and.
+
+320
+00:49:02.970 --> 00:49:13.620
+Xiaochen Li: If you are familiar with computer architecture you'll know that this footprint will not follow a regular data access so basically, you will not be benefit from.
+
+321
+00:49:15.480 --> 00:49:21.750
+Xiaochen Li: From data like from look locality data locality like you have been a seat seat array.
+
+322
+00:49:22.800 --> 00:49:31.830
+Xiaochen Li: So the the resolution for this, that the solution, the solution for this is to have a compensation algorithm using the suitable.
+
+323
+00:49:32.610 --> 00:49:41.310
+Xiaochen Li: helper like her, this is a just a normal space spelling curve and, as you can see it actually.
+
+324
+00:49:41.850 --> 00:49:48.750
+Xiaochen Li: decomposing three different level at first, the composer domain, so this is all the compute resources, you have to compose it.
+
+325
+00:49:49.170 --> 00:50:03.630
+Xiaochen Li: by assigning a different domain, a number and you put it to the let's say put it to different nodes are different yeah put it to a different node and for each node you you then decompose it in a process level.
+
+326
+00:50:05.040 --> 00:50:08.070
+Xiaochen Li: it's also it's actually quite similar.
+
+327
+00:50:10.290 --> 00:50:17.280
+Xiaochen Li: Like it's the same pattern it's a hell bird so to help her it's a spacecraft going curve pattern and by doing this.
+
+328
+00:50:18.480 --> 00:50:19.770
+Xiaochen Li: we're not only.
+
+329
+00:50:23.070 --> 00:50:25.770
+Xiaochen Li: See so so it's not.
+
+330
+00:50:27.330 --> 00:50:31.890
+Xiaochen Li: So then, at the very end, you decompose in it at a threat level so each.
+
+331
+00:50:33.930 --> 00:50:35.820
+Xiaochen Li: Each blocks and stand for.
+
+332
+00:50:37.230 --> 00:50:42.240
+Xiaochen Li: A sub task that is going to be solved by a thread, and this curve.
+
+333
+00:50:43.350 --> 00:51:11.580
+Xiaochen Li: Let me put a little bit so by using this curve we're ordering the blocks by by by the by the trace of the current, for example, you can see from this one, this is 0123456 and inside the indexing is also the same, so this is oh 012345678 blah blah blah, and you can see, by using this pen.
+
+334
+00:51:13.620 --> 00:51:13.860
+Right.
+
+335
+00:51:24.780 --> 00:51:37.890
+Xiaochen Li: So, by using this pattern this access are more regular or less irregular than the original Petter we use so by using the pseudo helper curve ordering.
+
+336
+00:51:39.240 --> 00:51:44.460
+Xiaochen Li: We actually again benefit from the data locality, which eat up the data a lot.
+
+337
+00:51:45.630 --> 00:51:51.990
+Xiaochen Li: And another part I was talking about when I was talking about htc G is a sparse matrix.
+
+338
+00:51:53.310 --> 00:52:04.530
+Xiaochen Li: multiplication and in Mexico, they also use a sparse matrix multiplication and their their way to solve it is by using.
+
+339
+00:52:07.830 --> 00:52:16.500
+Xiaochen Li: Using to array to store using to say yeah every or matrix to solve a to to.
+
+340
+00:52:17.790 --> 00:52:28.680
+Xiaochen Li: solve the sparse matrix multiplication problem so let's recall a sparse matrix or a sparse vector as a vector that consists of a lot of zero increase and only.
+
+341
+00:52:30.240 --> 00:52:47.460
+Xiaochen Li: A few of the other entries are non zero interest rate, so instead of storing the whole matrix what they try to do as they store the index for example given an A an array West lens 100 only the second and the third.
+
+342
+00:52:50.130 --> 00:52:58.860
+Xiaochen Li: Like position, the location is the non dear answers, so we instead of the saving this hundred lens.
+
+343
+00:53:00.630 --> 00:53:03.930
+Xiaochen Li: This array of hundred lens 100 element blonde.
+
+344
+00:53:05.070 --> 00:53:09.480
+Xiaochen Li: We store the other two array which caught the index array and the value of.
+
+345
+00:53:10.170 --> 00:53:19.260
+Xiaochen Li: Each was two elements, so the first index arrays going to store two and three, because only the two and three index to index three are non zero.
+
+346
+00:53:19.590 --> 00:53:39.210
+Xiaochen Li: And the value in that as a value array is going to store, the value of the original not the original sparse matrix at index view and what we are trying to do is when you want to see the non zero entries, we first spoke to the index, and then you basically.
+
+347
+00:53:40.890 --> 00:53:50.610
+Xiaochen Li: You can use this index or rate to access the original sparse matrix so i'm using this, although it's so computationally.
+
+348
+00:53:51.720 --> 00:53:52.230
+Xiaochen Li: Not.
+
+349
+00:53:53.430 --> 00:53:54.180
+Xiaochen Li: not like.
+
+350
+00:53:55.320 --> 00:54:00.990
+Xiaochen Li: quite easy but it's a it's a more feasible way to solve sparse matrix modification.
+
+351
+00:54:02.160 --> 00:54:07.530
+Xiaochen Li: And this is, I believe, caught a gathering up operation in in.
+
+352
+00:54:08.640 --> 00:54:24.570
+Xiaochen Li: Computer architecture or literature so let's see and putting that all say we are going to read a little bit about the experiment part so basically.
+
+353
+00:54:24.810 --> 00:54:25.320
+Mary Thomas: Take a.
+
+354
+00:54:25.470 --> 00:54:25.830
+Xiaochen Li: Sorry.
+
+355
+00:54:25.860 --> 00:54:27.780
+Mary Thomas: You have a question in the chat.
+
+356
+00:54:27.900 --> 00:54:28.260
+Oh.
+
+357
+00:54:32.130 --> 00:54:35.520
+Xiaochen Li: No question I didn't give in terms of to bearable.
+
+358
+00:54:39.450 --> 00:54:44.520
+Xiaochen Li: What do you mean by to arable sorry I didn't quite get the question.
+
+359
+00:54:49.020 --> 00:54:50.280
+Mary Thomas: Lou you can go ahead and.
+
+360
+00:54:50.310 --> 00:54:52.230
+Xiaochen Li: Ask it if you'd like yeah.
+
+361
+00:54:54.810 --> 00:54:55.680
+Mary Thomas: But you're muted.
+
+362
+00:55:00.420 --> 00:55:02.340
+Lu Sham: Just from when you started.
+
+363
+00:55:03.810 --> 00:55:06.360
+Lu Sham: In the first lie I.
+
+364
+00:55:08.400 --> 00:55:13.020
+Lu Sham: So that's that's the results of the X Ray right.
+
+365
+00:55:14.220 --> 00:55:14.970
+Xiaochen Li: ways.
+
+366
+00:55:15.420 --> 00:55:18.840
+Lu Sham: So if you go back to the he.
+
+367
+00:55:19.710 --> 00:55:23.880
+Lu Sham: Is no yeah right, so your.
+
+368
+00:55:25.530 --> 00:55:36.510
+Lu Sham: experiment is that you rotating that, by the way this very another variable good figure is that, from a paper you see.
+
+369
+00:55:36.780 --> 00:55:41.100
+Lu Sham: You can put a detector right along the path.
+
+370
+00:55:41.190 --> 00:55:44.250
+Lu Sham: Of the X Ray because all you get is a burn.
+
+371
+00:55:44.250 --> 00:55:44.730
+tall.
+
+372
+00:55:47.670 --> 00:55:53.220
+Lu Sham: So so so the detection are usually angled.
+
+373
+00:55:54.840 --> 00:55:55.560
+Lu Sham: So.
+
+374
+00:55:57.330 --> 00:56:01.020
+Lu Sham: Then you rotate so the experiments rotating.
+
+375
+00:56:02.910 --> 00:56:10.980
+Lu Sham: So that's a theater and, since you have a two dimensional curve with functions, so you have two variables right.
+
+376
+00:56:11.190 --> 00:56:12.090
+Lu Sham: Well, as the other one.
+
+377
+00:56:13.410 --> 00:56:28.200
+Xiaochen Li: A OK, so the data given is actually a collected St oh great, so we are not given all this scan data, but this one single sign oh green isn't image it's a binary file actually.
+
+378
+00:56:28.860 --> 00:56:40.230
+Lu Sham: yeah I see so So yes, I beginning to figure out later on the slides the next slides the figure five that they are just zero in ones, is it.
+
+379
+00:56:40.230 --> 00:56:40.410
+yeah.
+
+380
+00:56:42.750 --> 00:56:43.290
+Lu Sham: So.
+
+381
+00:56:44.670 --> 00:56:48.300
+Lu Sham: So, so we got feta and then what was role.
+
+382
+00:56:49.410 --> 00:56:50.550
+Xiaochen Li: Our role is.
+
+383
+00:56:53.370 --> 00:56:55.590
+Xiaochen Li: You can think of it sets that dimension.
+
+384
+00:56:56.910 --> 00:57:02.070
+Xiaochen Li: Like it's a it's like a it's not a soda the.
+
+385
+00:57:03.870 --> 00:57:11.550
+Xiaochen Li: Or do you mean the pee pee data it's actually a projection sampler projection and the data is the index.
+
+386
+00:57:13.470 --> 00:57:15.840
+Lu Sham: Sorry, say, is the rotation oh.
+
+387
+00:57:16.140 --> 00:57:18.210
+Xiaochen Li: yeah yeah data is the rotational.
+
+388
+00:57:18.330 --> 00:57:21.270
+Lu Sham: Like what is row or you got a P, I think it looks like.
+
+389
+00:57:22.140 --> 00:57:23.520
+Xiaochen Li: The role is like that.
+
+390
+00:57:23.670 --> 00:57:27.750
+Xiaochen Li: The projection the image you got at that angle.
+
+391
+00:57:29.580 --> 00:57:29.730
+Lu Sham: Oh.
+
+392
+00:57:30.810 --> 00:57:31.380
+Lu Sham: I see.
+
+393
+00:57:31.710 --> 00:57:32.010
+Xiaochen Li: yeah.
+
+394
+00:57:32.040 --> 00:57:42.630
+Lu Sham: So basic level so so when there's so do it, so when they talk about tomography you are getting layers of this or just one.
+
+395
+00:57:43.020 --> 00:57:44.280
+Xiaochen Li: Are we are only getting one.
+
+396
+00:57:45.180 --> 00:57:46.470
+Lu Sham: Or the sonograms only one.
+
+397
+00:57:47.190 --> 00:57:49.320
+Xiaochen Li: Yes, and agreements only one I see.
+
+398
+00:57:50.250 --> 00:57:55.350
+Lu Sham: So what does the final tomato tomato Grameen that.
+
+399
+00:57:55.620 --> 00:57:58.890
+Xiaochen Li: So you can see the sonogram is a scan image right.
+
+400
+00:57:59.220 --> 00:58:02.700
+Xiaochen Li: And let me show you some example so.
+
+401
+00:58:06.750 --> 00:58:14.460
+Xiaochen Li: Let me show the whole screen so now let's see Given this, these are the data given at the competition so.
+
+402
+00:58:15.660 --> 00:58:18.960
+Xiaochen Li: For this one, this is a sign of grand image.
+
+403
+00:58:20.730 --> 00:58:41.460
+Xiaochen Li: The data given it's not an image, it is, it is computed by another like our them so basically this image doesn't represent anything right we don't really know anything from this diagram what this our our them is trying to do is to reconstruct the original 3D.
+
+404
+00:58:44.520 --> 00:58:47.940
+Xiaochen Li: 3D like the original image which we called us.
+
+405
+00:58:48.990 --> 00:58:49.800
+Xiaochen Li: a coma Bryan.
+
+406
+00:58:50.820 --> 00:58:58.650
+Xiaochen Li: Alas, so the result for this one is this reconstruction, so you can see, this is a Shell rock.
+
+407
+00:59:00.360 --> 00:59:05.550
+Xiaochen Li: yeah basically we are converting this diagram into this one.
+
+408
+00:59:06.720 --> 00:59:13.800
+Xiaochen Li: And this process a traditional eat out a lot of computational resources.
+
+409
+00:59:14.070 --> 00:59:19.080
+Lu Sham: So, so what you're doing is a big matrix and you're transforming into another matrix.
+
+410
+00:59:19.140 --> 00:59:23.370
+Xiaochen Li: yeah yeah basically a you are trying to solve the least square problem.
+
+411
+00:59:24.750 --> 00:59:27.120
+Lu Sham: Because the dimensions yeah.
+
+412
+00:59:28.110 --> 00:59:36.450
+Xiaochen Li: And this uh yeah the and what's super interesting I said this paper is the 2019 best paper.
+
+413
+00:59:37.050 --> 00:59:40.650
+Xiaochen Li: and plenty plenty one of the 2020 best paper is.
+
+414
+00:59:41.850 --> 00:59:46.140
+Xiaochen Li: From the same author, but this application on the 3D reconstruction.
+
+415
+00:59:47.250 --> 00:59:47.760
+Lu Sham: I see.
+
+416
+00:59:49.140 --> 00:59:56.940
+Xiaochen Li: This wine is only for to the but i'm not sure if it's going to be the 3D reconstruction this year yeah so yeah okay so.
+
+417
+00:59:57.150 --> 00:59:57.780
+Lu Sham: Can you.
+
+418
+00:59:59.940 --> 01:00:06.180
+Lu Sham: send us send us up the reference I saw a bit at the top is St St something but.
+
+419
+01:00:08.100 --> 01:00:11.010
+Xiaochen Li: you're you mean this one CDs one.
+
+420
+01:00:14.880 --> 01:00:16.290
+Lu Sham: Can you send us a reference.
+
+421
+01:00:17.430 --> 01:00:18.870
+Xiaochen Li: reference to the paper or.
+
+422
+01:00:23.250 --> 01:00:25.860
+Mary Thomas: Reference to people yeah that's what he's looking for.
+
+423
+01:00:29.460 --> 01:00:29.880
+Xiaochen Li: Only.
+
+424
+01:00:30.180 --> 01:00:34.380
+Lu Sham: that's that's very good enough, I can I can search that, if I can.
+
+425
+01:00:35.580 --> 01:00:35.880
+yeah.
+
+426
+01:00:38.160 --> 01:00:39.510
+Lu Sham: good enough, I can.
+
+427
+01:00:40.620 --> 01:00:44.040
+Lu Sham: That there's enough information, how many authors.
+
+428
+01:00:45.390 --> 01:00:45.750
+Xiaochen Li: one.
+
+429
+01:00:45.930 --> 01:00:47.400
+Lu Sham: Okay okay yeah Thank you.
+
+430
+01:00:47.910 --> 01:00:56.190
+Xiaochen Li: No problem and yeah and will actually keep talking about this yeah you can see from from from this this fire that they're saying that.
+
+431
+01:00:57.270 --> 01:01:12.870
+Xiaochen Li: We are actually installing this in square problem in in each step is divided and, as a former model arson regularization see as a constraint and yeah basically we're solving this.
+
+432
+01:01:13.890 --> 01:01:15.540
+Xiaochen Li: problem yeah.
+
+433
+01:01:16.080 --> 01:01:18.900
+Lu Sham: Four layers of it yeah it's come over so.
+
+434
+01:01:20.490 --> 01:01:26.430
+Xiaochen Li: yeah and we're doing a gradient descent, and the screen and the sentence of every computationally.
+
+435
+01:01:28.800 --> 01:01:30.720
+Lu Sham: Challenging in testing yeah.
+
+436
+01:01:31.410 --> 01:01:35.310
+Xiaochen Li: intensity, so what this memory city is doing is by.
+
+437
+01:01:36.450 --> 01:01:44.550
+Xiaochen Li: is more like dynamic programming approach but it's not actually using dynamic approach it's like it saves the.
+
+438
+01:01:45.720 --> 01:02:01.590
+Xiaochen Li: On the flight computation and each each step of reading said it save it and, once they need it in the future, you can retrieve from the history, so that it's actually memory centric.
+
+439
+01:02:03.180 --> 01:02:23.700
+Xiaochen Li: Like some this problem, but you know computationally inefficient problem from problem is a consuming more times right, but we can pray five times, but we can buy more memories, so we can actually have a very huge computer, as you can see, let me show you a very.
+
+440
+01:02:25.380 --> 01:02:28.920
+Xiaochen Li: like this result scared me so when they're doing the strong skelly result.
+
+441
+01:02:30.330 --> 01:02:34.080
+Xiaochen Li: they're using 400 notes for this.
+
+442
+01:02:34.440 --> 01:03:00.570
+Xiaochen Li: For this data set, and I believe RDS to as the mouse brain, let me, let me just double check yeah RDS to yeah it's a mouse green and it's regular it's like a so as I mentioned, we are saving the on the fly calculation right so after saving all those calculation, we all have a.
+
+443
+01:03:02.010 --> 01:03:05.160
+Xiaochen Li: runtime memory of 5.1 terabytes.
+
+444
+01:03:06.240 --> 01:03:19.320
+Xiaochen Li: Yes, which can really be used in a hospital or on or whatever place but a supercomputer Center and i'm not even sure if our Center got 4000 notes.
+
+445
+01:03:20.580 --> 01:03:21.870
+Xiaochen Li: To come to you so.
+
+446
+01:03:23.190 --> 01:03:41.100
+Xiaochen Li: it's a it's a fantastic result and it's actually quite interesting and what I want to show you is some of the optimization strategy I used to further speed up this city and let's have a look at the.
+
+447
+01:03:42.660 --> 01:03:48.090
+Xiaochen Li: code or my compile code, so this is my code for.
+
+448
+01:03:49.800 --> 01:03:52.200
+Xiaochen Li: let's go to a performance.
+
+449
+01:03:56.310 --> 01:03:57.420
+Xiaochen Li: So this is some.
+
+450
+01:03:58.680 --> 01:04:03.090
+Xiaochen Li: compile code, I had for compiling the Program.
+
+451
+01:04:04.140 --> 01:04:04.740
+Xiaochen Li: and
+
+452
+01:04:06.420 --> 01:04:12.000
+Xiaochen Li: So what yeah let me, let me first talk about which part of the experiments are we.
+
+453
+01:04:13.080 --> 01:04:27.000
+Xiaochen Li: Producing so for this one there they're performing their so called one one note or single device performance on the knights landing the candle.
+
+454
+01:04:27.450 --> 01:04:47.730
+Xiaochen Li: And their performance on sts one which is a very small small file is like we are only talking about the Gray bar, because the Gray bar is with all the optimization strategy I mentioned before, like using the space spelling curve indexing and using the.
+
+455
+01:04:48.840 --> 01:05:03.900
+Xiaochen Li: sparse matrix multiplication colonel, and also with with some buffering system called multistage buffering where you put a locally close data into the same Alfred cash and then.
+
+456
+01:05:04.800 --> 01:05:25.560
+Xiaochen Li: Make the the other part, like into the Alto cash spending can still benefit from the data locality and basically we are trying to reproduce this penner and although we're given given some different data, what I want to show you as my reproduce my reproducing result for.
+
+457
+01:05:27.480 --> 01:05:27.810
+Xiaochen Li: For.
+
+458
+01:05:30.000 --> 01:05:30.480
+Xiaochen Li: Here is it.
+
+459
+01:05:32.190 --> 01:05:33.270
+Xiaochen Li: As you can see.
+
+460
+01:05:34.410 --> 01:05:36.720
+Xiaochen Li: These are my results and.
+
+461
+01:05:38.460 --> 01:05:41.430
+Xiaochen Li: As site with different strategy, but.
+
+462
+01:05:44.370 --> 01:06:02.550
+Xiaochen Li: The problem is, I didn't use the optimized strategy here but, but we can look at the blue bar and you can see that I didn't reach so they're they're having at something and then 100 something right so far, as well as to which are very small result.
+
+463
+01:06:03.780 --> 01:06:24.360
+Xiaochen Li: I have only like 60 and 40 something before at a three and yes for i'm actually having a similar even better result than theirs so so during the competition, we are actually required to explain why is this happening, so why do we have any s one s to.
+
+464
+01:06:25.470 --> 01:06:37.530
+Xiaochen Li: Lower like have a having a lower G flops and their results, while are on larger data set at a three and four, we have hired a hierarchy block, so the reason parasol to be.
+
+465
+01:06:38.550 --> 01:06:40.650
+Xiaochen Li: On the machine they're using got.
+
+466
+01:06:43.620 --> 01:06:44.790
+Xiaochen Li: Caught an MC ren.
+
+467
+01:06:45.810 --> 01:06:58.050
+Xiaochen Li: So, which is this one, which is 16 gigabytes and their machine itself cannot compute as fast as an HP 120 instance, as I mentioned, important.
+
+468
+01:06:58.770 --> 01:07:12.900
+Xiaochen Li: What this ran can do is that MTV Ram can do is that as one and as to are small enough so that it can be fit completely into this rain, while we don't have a have such a big grand.
+
+469
+01:07:13.620 --> 01:07:24.450
+Xiaochen Li: So we don't really have ABS one idiots to fit into the ring directly completely, so we have a slower a result about for larger data.
+
+470
+01:07:25.320 --> 01:07:35.880
+Xiaochen Li: For 83 and 80 sport it's too large to be fit into the engineering, because I believe this as for requires 120 120.
+
+471
+01:07:36.780 --> 01:07:51.030
+Xiaochen Li: gigabytes of memory runtime memory and ABS, the MC Ram is too small so basically our machine the HP 120 a strong enough so that we actually have a better performance and cadence.
+
+472
+01:07:52.590 --> 01:07:58.710
+Xiaochen Li: And this is the first one, we need to reproduce and the second one, we need to reproduce it the memory bandwidth utilization.
+
+473
+01:08:00.930 --> 01:08:01.530
+Xiaochen Li: This is.
+
+474
+01:08:03.030 --> 01:08:05.670
+Xiaochen Li: i'm not going to show the results here because it's kind of.
+
+475
+01:08:07.590 --> 01:08:08.340
+Xiaochen Li: Our show algorithm.
+
+476
+01:08:09.420 --> 01:08:11.460
+Xiaochen Li: So basically the bandwidth.
+
+477
+01:08:13.410 --> 01:08:17.280
+Xiaochen Li: So i'm not using the same data, but you can see that.
+
+478
+01:08:21.570 --> 01:08:34.680
+Xiaochen Li: it's basically, I can say anything, because I can remember the theoretical peak of HP on 20 but basically we're matching their data on on similar sites has input.
+
+479
+01:08:35.940 --> 01:08:40.020
+Xiaochen Li: And another very important part is this strong scaling.
+
+480
+01:08:41.310 --> 01:08:47.340
+Xiaochen Li: s&c so let me introduce you a little bit more about this curve, so this blue curve is a total time us.
+
+481
+01:08:48.420 --> 01:08:57.750
+Xiaochen Li: And X axis is a number of nodes while y axis is solution time the whole grid is log scale and.
+
+482
+01:08:58.800 --> 01:09:00.690
+Xiaochen Li: We can see that this blue curve.
+
+483
+01:09:01.800 --> 01:09:08.370
+Xiaochen Li: it's going down going down but, at the very end, a little bit and this red red part.
+
+484
+01:09:10.470 --> 01:09:12.090
+Xiaochen Li: This red is the.
+
+485
+01:09:13.680 --> 01:09:15.120
+Xiaochen Li: Meat we call.
+
+486
+01:09:16.290 --> 01:09:18.600
+Xiaochen Li: This a part should be the.
+
+487
+01:09:30.180 --> 01:09:32.190
+Xiaochen Li: They should mention top.
+
+488
+01:09:35.790 --> 01:09:36.390
+Member.
+
+489
+01:09:38.280 --> 01:09:38.670
+Xiaochen Li: yeah.
+
+490
+01:09:39.870 --> 01:09:52.980
+Xiaochen Li: Okay, so this a P is multiplication costs and the sea is a communication costs and ariza reduction cost okay that's good let's go back to experiment, so the.
+
+491
+01:09:54.090 --> 01:10:01.860
+Xiaochen Li: As more so nodes increase the multiplication time decrease in the city it's in a super Nice, so this.
+
+492
+01:10:02.460 --> 01:10:15.690
+Xiaochen Li: This black line here is the benchmark is oh want to repeat, so if we go through the slides it's a linear speedup this red line go through super linear speedup while the yellow line the sea is a communication.
+
+493
+01:10:16.920 --> 01:10:28.230
+Xiaochen Li: Which is reasonable, since we have more notes the communication time kind of increased, while the reduction time this purple line stay at the very.
+
+494
+01:10:29.850 --> 01:10:42.420
+Xiaochen Li: Bottom doesn't change the line so let's see this is on RDS to but we don't have such a huge data it requires 5.1 terabytes and using for solving so we actually doing this.
+
+495
+01:10:44.070 --> 01:10:46.710
+Xiaochen Li: Working on let's go back to the.
+
+496
+01:10:48.210 --> 01:10:52.380
+Xiaochen Li: yeah let's show you show some cool result so it's.
+
+497
+01:10:56.340 --> 01:10:58.500
+Xiaochen Li: So let's have a look at the.
+
+498
+01:11:01.770 --> 01:11:04.380
+Xiaochen Li: New official, this is not good one.
+
+499
+01:11:06.570 --> 01:11:10.080
+Xiaochen Li: Okay yeah let's have a look at this one, so this is a.
+
+500
+01:11:12.600 --> 01:11:26.220
+Xiaochen Li: Strong scaling diagram I have, and you can see, although, at the very beginning, this total time is this red a modification time is dropping it actually dropping a much slower.
+
+501
+01:11:27.930 --> 01:11:36.330
+Xiaochen Li: rate than the original line because they're in the original one we're talking about this red line should be having a super linear.
+
+502
+01:11:37.620 --> 01:11:52.050
+Xiaochen Li: speedup right the The reason for this is that CBS who is so small so once we increase it from one to two we actually reached a diminishing return So even if you try to add more more of the.
+
+503
+01:11:53.700 --> 01:12:05.520
+Xiaochen Li: More nodes it doesn't really help it all the time, even worse, this a seat and our our reduction time and communication time so notes increase.
+
+504
+01:12:06.180 --> 01:12:25.590
+Xiaochen Li: The purple line yellow light gradually dominant the time spending so actually spending much more time than we expected, so the total time didn't actually go down so even if you didn't see the exact same result you need to explain why eating to find a reason so.
+
+505
+01:12:27.120 --> 01:12:44.850
+Xiaochen Li: For the let's see do I have a better diagram yeah I think this one is yeah so for this one, I used to optimize it's kind of like cheating, but I will explain why so basically in this diagram you see a very good result.
+
+506
+01:12:45.870 --> 01:12:51.180
+Xiaochen Li: Like blue line go down at the very beginning and then go up a little bit the red light is.
+
+507
+01:12:52.230 --> 01:12:56.430
+Xiaochen Li: experienced a super linear or approximately mean your speed up.
+
+508
+01:12:57.780 --> 01:13:08.970
+Xiaochen Li: hi sorry the yellow line is going up the communication time reduction time remains the bottom, so why do you say it's like cheating so when they're talking about.
+
+509
+01:13:09.510 --> 01:13:17.970
+Xiaochen Li: Measuring performance they're calling it a single device performance, but what I was trying to do is I was doing a single socket.
+
+510
+01:13:19.080 --> 01:13:27.840
+Xiaochen Li: performance, so that I can actually map different yeah let's go back to the code to explain a little bit more yeah you can see.
+
+511
+01:13:28.680 --> 01:13:41.520
+Xiaochen Li: For remember for a HP 120 instance there's 60 GPS 60 cpus on a socket and there are two sock in the board so i'm only i'm only using one socket and dividing.
+
+512
+01:13:42.300 --> 01:14:00.990
+Xiaochen Li: The 60 cpu into four groups, because each for each 15 cpus share the same l three cash, if I can map the task that's close to each other on on the same LTE cash, then there should be a pretty good performance so.
+
+513
+01:14:02.340 --> 01:14:13.080
+Xiaochen Li: As you can see here, but if you learn mti you now know that number of processes 15 but we're actually using for open non P threat so.
+
+514
+01:14:14.160 --> 01:14:28.170
+Xiaochen Li: We have 15 ranks and four threads so in total there 6060 like 60 what process or sixth grade sixth grade and we use this meant but i'll speak English so that.
+
+515
+01:14:29.850 --> 01:14:39.060
+Xiaochen Li: Processing element as the Alpha cash and we're using for up the Alfred cash so each 15 past is mapped to the same.
+
+516
+01:14:39.510 --> 01:14:55.770
+Xiaochen Li: job, and you can see the service grip their PR notice vicki and cpus per passport, so in this case we have we used to have one single socket can we get a very, very good result as can see.
+
+517
+01:14:58.200 --> 01:14:59.940
+Xiaochen Li: it's quite similar to this one.
+
+518
+01:15:01.080 --> 01:15:03.600
+Xiaochen Li: So let's have a look at the Chair.
+
+519
+01:15:05.580 --> 01:15:05.850
+Xiaochen Li: Okay.
+
+520
+01:15:07.470 --> 01:15:14.070
+Xiaochen Li: So, after this going i'm i'm just going to show you some more results from the.
+
+521
+01:15:15.900 --> 01:15:27.570
+Xiaochen Li: yeah beside the result, you can see that a for doing all these experiments, I will have to run it a lot of time, so you have to have the scripts.
+
+522
+01:15:28.200 --> 01:15:43.620
+Xiaochen Li: So these are my scripts and let me show you the result of the result so for let's say CDs one, you can see i've run experiments hundreds of time and, by doing that I can take average and get the.
+
+523
+01:15:45.390 --> 01:15:47.010
+Xiaochen Li: More like.
+
+524
+01:15:48.150 --> 01:15:57.360
+Xiaochen Li: Credible results, so you actually need to submit all these files to the organization one yeah basically.
+
+525
+01:15:58.710 --> 01:16:03.270
+Xiaochen Li: So yeah that's all I want to talk about but.
+
+526
+01:16:05.220 --> 01:16:11.910
+Xiaochen Li: I hope this doesn't scared you, because although it's hard, but it really.
+
+527
+01:16:12.030 --> 01:16:14.040
+Xiaochen Li: We really have enough time for.
+
+528
+01:16:14.100 --> 01:16:17.460
+Xiaochen Li: A seat 21 and it's really a fun experience.
+
+529
+01:16:18.690 --> 01:16:22.170
+Xiaochen Li: As even even better, when you start when you recall it.
+
+530
+01:16:23.370 --> 01:16:23.730
+Xiaochen Li: So.
+
+531
+01:16:24.870 --> 01:16:26.790
+Xiaochen Li: we're not only looking for.
+
+532
+01:16:28.590 --> 01:16:34.920
+Xiaochen Li: TEAM members are also looking for whoever interesting mentoring it because you can see that, although i'm.
+
+533
+01:16:36.150 --> 01:16:57.120
+Xiaochen Li: I spent a lot, a lot of time on this application, I still didn't catch the mistakes or I still didn't get 100% like about the setup as blue pointed out because i'm not i'm not a physics major and reconstruction X Ray are somehow too hard for me, but.
+
+534
+01:16:58.860 --> 01:17:00.390
+Xiaochen Li: We are always prepared.
+
+535
+01:17:01.710 --> 01:17:16.800
+Xiaochen Li: As computer scientists to solve problems from different domains so we're we're really welcoming people from different domains as well because probably your like, for example, if your biology can pull in.
+
+536
+01:17:18.060 --> 01:17:31.830
+Xiaochen Li: We have you last year, then probably throw maximum be a tough problem to solve couldn't so yeah i'd welcome anyone to apply both for the team Members and also if you're interested in helping.
+
+537
+01:17:33.210 --> 01:17:37.260
+Xiaochen Li: I would like to have you as one of the mentor because I because.
+
+538
+01:17:39.330 --> 01:17:47.790
+Xiaochen Li: Probably i'll be the mentor for for the team this year and yeah just look for me and we're members yeah Thank you.
+
+539
+01:17:51.150 --> 01:17:53.580
+Mary Thomas: Thank you Jacob that was very good.
+
+540
+01:17:54.090 --> 01:17:55.800
+Xiaochen Li: Obviously into one.
+
+541
+01:17:55.980 --> 01:17:56.430
+Xiaochen Li: Sorry.
+
+542
+01:17:57.180 --> 01:17:59.100
+Mary Thomas: Go ahead, no you didn't take too long.
+
+543
+01:17:59.610 --> 01:18:04.140
+Xiaochen Li: You know, not just saying that I hope you didn't take too long.
+
+544
+01:18:06.090 --> 01:18:06.600
+Mary Thomas: No.
+
+545
+01:18:07.860 --> 01:18:17.730
+Mary Thomas: I think what's amazing is how much the students learned, given that we have very little time last year, so we started H PC user training.
+
+546
+01:18:18.540 --> 01:18:30.510
+Mary Thomas: Around the first of August and by November, they had all come up to them incredibly high skill level and working as a team and helping each other and working with mentors and.
+
+547
+01:18:31.800 --> 01:18:38.250
+Mary Thomas: We never know what the applications will be, and so, then we start reaching out and finding mentors.
+
+548
+01:18:38.760 --> 01:18:53.400
+Mary Thomas: To help us understand the physics is physics background, but actually it was not so much about the physics, it was about some advanced computer science memory management, so it was very interesting anyway.
+
+549
+01:18:54.810 --> 01:18:59.520
+Mary Thomas: Excuse me, I think that's it unless i'm going to stop recording.
+
