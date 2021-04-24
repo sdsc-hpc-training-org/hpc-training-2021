@@ -2,7 +2,7 @@
 
 ###  WEEK 12: 4/23/2021	
 
-## TOPIC: Containers for CPU and GPU Computing
+## TOPIC: Intro to Azure HPC Systems; Launching VMs; Running MPI Code
 
 **Presented By:** [Paul Yu (Microsoft);]() ()
 
