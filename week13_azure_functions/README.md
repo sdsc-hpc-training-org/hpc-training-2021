@@ -6,7 +6,15 @@
 
 **Presented By:** [Rob Fatland (Univ. of Washington)](https://escience.washington.edu/people/rob-fatland/) 
 
-** Description:** 
+Cloud computing is "someone else's computer" for a fee; but there is actually a surprising amount of complexity
+and convenience involved, beyond the basics of computer power, storage and networking. This presentation will
+cover a form of computing called ***serverless*** and will include real implementation on the Azure cloud
+by means of *Azure Functions*. 
+
+Some of this presentation will be given in "code along" format; so you may need to activate your Azure 
+subscription and test logging in to the [Azure Portal](https://portal.azure.com) in advance. You may also of
+course simply audit the process as we go through it. 
+
 
 ## READING AND PRESENTATIONS:
 
