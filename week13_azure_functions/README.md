@@ -10,7 +10,10 @@
 
 ## READING AND PRESENTATIONS:
 
-* **Lecture slides:** [Week 13: TBD]()
+* **Lecture slides:** 
+  * [Azure Functions for scientists and students: A walkthrough](https://github.com/robfatland/serverless/blob/main/azure/tutorial.md) 
+  * [Week 13: Introduction to Azure Serverless Functions](https://docs.google.com/presentation/d/1R2HHfHYgmarje2q_0x42hMecUc7R6SFjI-ih1L05foQ/edit#slide=id.p)
+  
 * **Video Recording:** [Week 13: Video --  TBD] ()
 * **Source Code/Examples:** [TBD]()
 
