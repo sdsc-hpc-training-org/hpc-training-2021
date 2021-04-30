@@ -4,7 +4,9 @@
 
 ## TOPIC: Azure Functions for Scientists and Students	
 
-**Presented By:** [Rob Fatland (Univ. of Washington)](https://escience.washington.edu/people/rob-fatland/) 
+**Presented By:** 
+* [Rob Fatland (Univ. of Washington)](https://escience.washington.edu/people/rob-fatland/) ( rob5 at uw.edu )
+* [Naomi Alterman](https://escience.washington.edu/people/naomi-alterman/) ( naomila at uw.edu )
 
 Cloud computing is "someone else's computer" for a fee; but there is actually a surprising amount of complexity
 and convenience involved, beyond the basics of computer power, storage and networking. This presentation will
