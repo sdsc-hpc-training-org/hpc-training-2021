@@ -1,5 +1,5 @@
 # SDSC HPC User Training:  Spring 2020
-**WEEK 3:** 01/24/2020
+## WEEK 3: 01/24/2020
 
 ## TOPIC: GPU Computing and Programming
 
@@ -8,7 +8,9 @@
 ### READINGS AND PRESENTATIONS:
 
 * **Lecture slides:** [https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/sdsc-scc-gpu-computing-mpt-2021-02-05.pdf)
-* **Video Recording:** [Week 3: GPU Computing and Programming](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
+* **Video Recording:** 
+  * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week3)
+  * [YouTube Video](https://www.youtube.com/watch?v=l5FSJ1kJHdA&t=1235s)
 * **Source Code/Examples:** 
     * [exp101-examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp/exp101-examples/OpenACC)
     * [gpu-code-examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week3_gpu_comp/gpu-code-examples)
