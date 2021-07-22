@@ -1,6 +1,6 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 7: 03/05/2021
+**WEEK 7: 03/05/2021**
 
 ## TOPIC: CPU Profiling, monitoring: gprof, mpiP/comms, uProf	
 
