@@ -9,7 +9,9 @@
 ## READING AND PRESENTATIONS:
 
 * **Lecture slides:** [Week 7: CPU profiling on Expanse](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week7_cpu_prof/ProfileExpanse.pdf)
-* **Video Recording:** [Week 6: Video TBD]
+* **Video Recording:** 
+   * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week7)
+   * [YouTube Video](https://www.youtube.com/watch?v=Cl1C1UZ4kfI)
 * **Source Code/Examples:** 
    * **Note:**  The material in this repository was pulled on 3/5/21 from the following repo: 
    * https://github.com/sinkovit/profiling-tutorial
