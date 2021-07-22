@@ -9,10 +9,11 @@
 ## READING AND PRESENTATIONS:
 
 * **Lecture slides:** [Week 8: Expanse GPU Profiling](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week8_gpu_prof/Expanse_GPU_Profiling_MTatineni.pdf)
-* **Video Recording:** [Week 8: Expanse GPU Profiling Video](https://youtu.be/LnZ6S_n0ruQ)
+* **Video Recording:** 
+   * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week8)
+   * [YouTube Video](https://youtu.be/LnZ6S_n0ruQ)
 * **Source Code/Examples:** CUDA SDK Examples on Expanse system: see
-    * [Working on the
-GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/README.md)
+    * [Working on the GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/README.md)
 
 
 
@@ -21,7 +22,7 @@ GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/mai
 ### Task 0: Setting up to run GPU code on Expanse:
 
 * Download the CUDA Example codes.
-   * See lecture notes from Week3 which has instructions for [Working on the
+   * See lecture notes from _Week3_ which has instructions for [Working on the
 GPU nodes: ](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week3_gpu_comp/README.md)
 
 * Obtain interactive access on a GPU node:
