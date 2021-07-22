@@ -9,7 +9,9 @@
 ## READINGS AND PRESENTATIONS:
 
 * **Lecture slides:** [Week 6: CPU Computing: Introduction to MPI](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week6_mpi/HPC-UTr-21-week6-MPI.pdf)
-* **Video Recording:** [Week 6: Video TBD]
+* **Video Recording:** 
+   * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week6)
+   * [YouTube Video](https://youtu.be/-wZitvIF0fs?t=85)
 * **Source Code/Examples:** [week6_mpi/examples](https://github.com/sdsc-hpc-training-org/hpc-training-2021/tree/main/week6_mpi/examples)
 
 ## WEEK 6 TASKS:
