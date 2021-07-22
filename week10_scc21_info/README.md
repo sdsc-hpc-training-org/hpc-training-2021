@@ -1,32 +1,26 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 1: 04/9/2021	
-Student Cluster Competition (SCC) 2021 Overview, Applications, Experiences; 
+**WEEK 10: 04/9/2021**
 
-	
-SCC20 Team Members; 
-Mary Thomas
+## Presentations: 
 
-| DESCR. |TOPIC #1      | TOPIC #2 |
+| **DESCR.** | **TOPIC #1**  | **TOPIC #2** |
 | ----------- | ----------- |  ----------- |
 | **TITLE:** | Student Cluster Competition (SCC) 2021 Overview  | Running Secure Jupyter Notebooks on HPC Systems |
 | **Presented By:**   | [SCC20 Team](https://hpc-students.sdsc.edu/scc/index.html) | [Mary Thomas](https://www.sdsc.edu/~mthomas/)
 | **Contac Info:** |  x1li at ucsd.edu | mpthomas at ucsd.edu |
-| **Lecture Slides** | TBD | TBD |
-| **Video Recording** | TBD | TBD |
 | **TASKS** | [Tasks: Topic #1](#topic1) | [Tasks: Topic #2](#topic2) |
 
+* **Video Recording:** 
+   * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week10)
+   * [YouTube Video](https://youtu.be/UCZn1fHwTLM)
 
 
 <hr>
 ## <a name="topic1"></a>WEEK 10 TASKS: Topic #1
 
 ### Task 1: 
-TBD
-
-### Task 2:
-TBD
-
+* _Optional:_ Apply to join the team or the Supercomputing club.
 
 <hr>
 ## <a name="topic2">WEEK 10 TASKS: Topic #2
