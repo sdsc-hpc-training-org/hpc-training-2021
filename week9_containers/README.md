@@ -11,11 +11,9 @@
 ## READING AND PRESENTATIONS:
 
 * **Lecture slides:** [introduction-to-singularity.pdf](https://github.com/sdsc-hpc-training-org/hpc-training-2021/blob/main/week9_containers/introduction-to-singularity.pdf)
-
 * **Video Recording:** 
    * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week8)
    * [YouTube Video](https://youtu.be/gJsnDX-UszE)
-
 * **Source Code/Examples:** [N/A]()
 
 
