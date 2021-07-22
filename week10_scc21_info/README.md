@@ -28,10 +28,7 @@
 ### Task 1: 
 * Read the online user guide: [https://hpc-training.sdsc.edu/notebooks-101/](https://hpc-training.sdsc.edu/notebooks-101/)
 * Launch a Jupyter notebook on Expanse: [https://hpc-training.sdsc.edu/notebooks-101/notebook-101.html#launching-the-notebook](https://hpc-training.sdsc.edu/notebooks-101/notebook-101.html#launching-the-notebook)
-
-### Task 2:
-TBD
-
+* Save the output from the notebook launch script in the HW dir.
 
 
 ### Note: Reporting your work:
