@@ -1,6 +1,6 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 9: 04/02/2021
+**WEEK 9: 04/02/2021**
 
 ## TOPIC: Containers for CPU and GPU Computing
 
