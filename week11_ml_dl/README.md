@@ -12,7 +12,6 @@
 | **TASKS** | [Tasks: Topic #1](#topic1) | [Tasks: Topic #2](#topic2) |
 
 
-
 <hr>
 ## <a name="topic1"></a>WEEK 11 TASKS: Topic #1
 
