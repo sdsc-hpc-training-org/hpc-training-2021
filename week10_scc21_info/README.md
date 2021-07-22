@@ -17,16 +17,17 @@
 
 
 <hr>
-## <a name="topic1"></a>WEEK 10 TASKS: Topic #1
+## <a name="topic1"></a>WEEK 10 TASKS: Topic #1: SCC21 Overview
 
 ### Task 1: 
 * _Optional:_ Apply to join the team or the Supercomputing club.
 
 <hr>
-## <a name="topic2">WEEK 10 TASKS: Topic #2
+## <a name="topic2"> WEEK 10 TASKS: Topic #2: Running Secure Jupyter Notebooks on HPC Systems
 
 ### Task 1: 
-TBD
+* Read the online user guide: [https://hpc-training.sdsc.edu/notebooks-101/](https://hpc-training.sdsc.edu/notebooks-101/)
+* Launch a Jupyter notebook on Expanse: [https://hpc-training.sdsc.edu/notebooks-101/notebook-101.html#launching-the-notebook](https://hpc-training.sdsc.edu/notebooks-101/notebook-101.html#launching-the-notebook)
 
 ### Task 2:
 TBD
