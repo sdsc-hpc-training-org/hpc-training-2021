@@ -1,6 +1,6 @@
 # SDSC HPC User Training: Spring 2021
 
-###  WEEK 6: 02/26/2021
+**WEEK 6: 02/26/2021**
 
 ## TOPIC: CPU Computing: Introduction to MPI
 
