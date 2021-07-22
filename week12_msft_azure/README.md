@@ -6,22 +6,22 @@
 
 **Presented By:** [Paul Yu (Microsoft);]() ()
 
-** Description:** 
+**Description:** This lecture demonstrates how to create and account, long onto, and use basic features of the MSFT Azure Portal.
+
 
 ## READING AND PRESENTATIONS:
 
-* **Lecture slides:** [Week 12: TBD]()
-* **Video Recording:** [Week 12: Video --  TBD] ()
-* **Source Code/Examples:** [TBD]()
+* **Lecture slides:** [N/A]()
+* **Video Recording:** 
+   * [Interactive Video](https://education.sdsc.edu/training/hpc_user_training_2021/week12)
+   * [YouTube Video](https://youtu.be/gJsnDX-UszE)
+* **Source Code/Examples:** [N/A]()
 
 
 ## WEEK 12 TASKS:
 
 ### Task 1: 
-TBD
-
-### Task 2:
-TBD
+* Follow the examples covered in the video.
 
 
 ### Note: Reporting your work:
