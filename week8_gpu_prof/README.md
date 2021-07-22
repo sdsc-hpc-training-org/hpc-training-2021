@@ -1,6 +1,6 @@
 # SDSC HPC User Training: Spring 2021
 
-##  WEEK 8: 03/12/2021
+**WEEK 8: 03/12/2021**
 
 ### TOPIC: GPU Profiling: nvprof, Nsight Systems, Nsight Compute	
 
